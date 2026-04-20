@@ -12,12 +12,12 @@ This project was developed at Seneca Polytec for Technical Capstone Project (Win
 3. <span style="color: #4A9EFF;">**Machine Vision (USB camera) - Image data acquisition unit**</span>
 4. <span style="color: #4A9EFF;">**Pneumatic circuit - Material handling unit**</span>
 
-**Key Performance Metrics:**
-1. <span style="color: #4A9EFF;">**Cycle Time**: 14-20 seconds per card</span>
+**Key Performance Indictator (KPIs):**
+1. <span style="color: #4A9EFF;">**Cycle Time**: 14-20 seconds per card / 25 mins per deck (total 54)</span>
 2. <span style="color: #4A9EFF;">**Throughput**: ~4.5 cards per minute
 3. <span style="color: #4A9EFF;">**Classification Accuracy**: 98%
-4. <span style="color: #4A9EFF;">**Pickup Reliability**: ~100% (under normal conditions)
-
+4. <span style="color: #4A9EFF;">**Average Confidence**: ~85%
+5. <span style="color: #4A9EFF;">**Pickup Reliability**: ~99% (under normal conditions)
 
 
 </div>
