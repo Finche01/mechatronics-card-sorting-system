@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node-RED
+node_modules/
+.config.json
+.config.nodes.json
+
+# Vision System
+software/vision/logs/*.log
+software/vision/templates/temp/
+*.jpg
+*.png
+*.jpeg
+!docs/images/*.png
+!docs/images/*.jpg
+
+# PLC Programming
+*.backup
+*.bak
+*.tmp
+
+# CAD Files (keep originals, ignore exports)
+hardware/mechanical/*.step
+hardware/mechanical/*.iges
+hardware/mechanical/*.stl
+!hardware/mechanical/final-export/
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
+secrets/
+credentials/
+
+# Temporary Files
+tmp/
+temp/
+*.cache
+
+# Documentation Build
+docs/_build/
+docs/.doctrees/
+
+# Test Data
+tests/test_data/*.csv
+tests/test_data/*.xlsx
+!tests/test_data/sample.csv
+
+# Compiled PLC Programs
+*.hex
+*.bin
+
+# Large Media Files
+*.mp4
+*.avi
+*.mov

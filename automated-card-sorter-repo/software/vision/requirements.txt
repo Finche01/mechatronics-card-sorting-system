@@ -1,0 +1,24 @@
+# Python Dependencies for Vision System
+# Automated Card Sorting System
+
+# Computer Vision
+opencv-python==4.5.5.64
+numpy==1.22.3
+
+# MQTT Communication
+paho-mqtt==1.6.1
+
+# Configuration
+pyyaml==6.0
+
+# Logging (built-in, listed for reference)
+# logging - Python standard library
+
+# Optional: Performance Optimization
+# opencv-contrib-python==4.5.5.64  # Additional OpenCV modules
+# scikit-image==0.19.2              # Alternative image processing
+
+# Development Dependencies (optional)
+# pytest==7.1.2                     # Unit testing
+# black==22.3.0                     # Code formatting
+# pylint==2.13.9                    # Linting
