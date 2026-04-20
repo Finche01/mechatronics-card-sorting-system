@@ -1,7 +1,10 @@
 # Mechatronics-card-sorting-system
-Machine vision-guided pick-and-place system for automated playing card sorting using PLC control, 3-axis gantry, and OpenCV classification.
+The Automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine designed to identify and sort playing cards into predefined bins. 
+The system demonstrates core principles of industrial automation and reflects mechanisms commonly seen in real-world applications, such as gantry cranes used in loading docks and arcade-style claw machines, but it is automated.
 
-Short Demostration: fedfsdf
+The key features of the system:
+1 - Programmable Logic Controller (PLC)
+2 - Three-axis gantry
+3 - Machine Vision (USB camera)
+4 - Pneumatic circuit 
 
-
-2221
