@@ -2,388 +2,714 @@
 
 [← Back to Main README](README.md)
 
-Complete parts list for the Mechatronics Card Sorting System.
+Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 📦 Complete Parts List
+## 📦 Summary
 
-### Summary
-
-| Category | Items | Estimated Cost |
-|----------|-------|----------------|
-| Mechanical Components | 20 | $350 - $450 |
-| Electronics & Control | 15 | $400 - $600 |
-| Pneumatics | 6 | $150 - $200 |
-| Fasteners & Hardware | - | $50 - $80 |
-| **Total** | **41+** | **$950 - $1,330** |
-
----
-
-## 🔩 Mechanical Components
-
-| # | Component | Specification | Qty | Unit Price | Total | Supplier | Notes |
-|---|-----------|--------------|-----|------------|-------|----------|-------|
-| 1 | Linear Rail | 20x20mm, 1000mm length | 3 | $25 | $75 | Amazon/AliExpress | For X, Y, Z axes |
-| 2 | Linear Bearing | LM20UU | 12 | $3 | $36 | Amazon | 4 per axis |
-| 3 | Lead Screw | 8mm diameter, 2mm pitch, 1000mm | 3 | $15 | $45 | Amazon | With brass nut |
-| 4 | Flexible Coupler | 8mm to 6.35mm | 3 | $5 | $15 | Amazon | Motor to lead screw |
-| 5 | Aluminum Extrusion | 2020 profile, various lengths | 6m | $3/m | $18 | Local/Online | Frame material |
-| 6 | Corner Brackets | 2020 L-bracket | 16 | $1 | $16 | Amazon | Frame corners |
-| 7 | T-Slot Nuts | M5 | 100 | $0.10 | $10 | Amazon | Assorted pack |
-| 8 | Motor Mount Plate | Aluminum, NEMA 23 | 3 | $8 | $24 | Amazon | Custom or pre-made |
-| 9 | Carriage Plate | Aluminum, custom cut | 3 | $12 | $36 | Local machine shop | 150x100mm |
-| 10 | Gripper Mount | Aluminum bracket | 1 | $10 | $10 | Custom fabrication | - |
-
-**Mechanical Subtotal: $285 - $350**
+| Category | Estimated Cost |
+|----------|----------------|
+| **CNC Machine & Structure** | $470 |
+| **PLC & Control System** | $639 |
+| **Motion & Motors** | $120 |
+| **Pneumatics & Vacuum** | $186 |
+| **Vision System** | $42 |
+| **Electrical Components** | $185 |
+| **Hardware & Fasteners** | $178 |
+| **Materials** | $45 |
+| **Miscellaneous** | $120 |
+| **Total** | **~$2,185** |
 
 ---
 
-## ⚡ Electronics & Control
+## 🏭 CNC Machine & Structure
 
-| # | Component | Specification | Qty | Unit Price | Total | Supplier | Notes |
-|---|-----------|--------------|-----|------------|-------|----------|-------|
-| 11 | Stepper Motor | NEMA 23, 2.8A, 1.8° | 3 | $25 | $75 | StepperOnline | High torque |
-| 12 | Stepper Driver | TB6600, 4.5A | 3 | $12 | $36 | Amazon | Microstep capable |
-| 13 | PLC Controller | Siemens S7-1200 | 1 | $250 | $250 | Automation Direct | Or equivalent |
-| 13b | PLC Controller (Alt) | Arduino Mega + CNC Shield | 1 | $45 | $45 | Amazon | Budget alternative |
-| 14 | Power Supply | 24V DC, 15A | 1 | $35 | $35 | Amazon | 360W minimum |
-| 15 | USB Camera | 1080p, 60fps, USB 3.0 | 1 | $45 | $45 | Logitech/Amazon | C920 or similar |
-| 16 | Limit Switch | Mechanical, SPDT | 6 | $2 | $12 | Amazon | 2 per axis |
-| 17 | Emergency Stop Button | Twist-release, NC contact | 1 | $8 | $8 | Amazon | Red mushroom head |
-| 18 | DIN Rail | 35mm, 1 meter | 1 | $8 | $8 | Amazon | For mounting |
-| 19 | Terminal Blocks | 10-position | 5 | $3 | $15 | Amazon | Wire organization |
-| 20 | Power Distribution | Fuse block, 6-circuit | 1 | $12 | $12 | Amazon | With fuses |
-| 21 | Control Enclosure | IP65, 300x400x200mm | 1 | $40 | $40 | Amazon | Weatherproof |
+### 1. VEVOR CNC Router Machine
 
-**Electronics Subtotal: $386 - $536**
+<p align="center">
+  <img src="https://via.placeholder.com/600x400?text=VEVOR+CNC+Machine" width="60%" alt="VEVOR CNC Router">
+</p>
 
----
+| Specification | Details |
+|--------------|---------|
+| **Model** | 3-Axis Wood Engraving Milling Machine |
+| **Working Area** | 15.75" x 15.75" x 2.36" (400 x 400 x 60mm) |
+| **Spindle Power** | 300W |
+| **Structure** | Aluminum Alloy |
+| **Controller** | Offline controller included |
+| **Quantity** | 1 |
+| **Price** | $469.99 |
+| **Supplier** | [VEVOR.ca](https://www.vevor.ca/) |
+| **Status** | ✅ Arrived |
 
-## 💨 Pneumatics
-
-| # | Component | Specification | Qty | Unit Price | Total | Supplier | Notes |
-|---|-----------|--------------|-----|------------|-------|----------|-------|
-| 22 | Pneumatic Gripper | 2-jaw parallel, 10mm stroke | 1 | $35 | $35 | Amazon/McMaster | MHZ2 series |
-| 23 | Solenoid Valve | 5/2-way, 24V DC | 1 | $15 | $15 | Amazon | Pneumatic control |
-| 24 | Air Compressor | 6 bar, 50L tank | 1 | $120 | $120 | Local/Harbor Freight | Or shop air |
-| 25 | Pressure Regulator | 0-10 bar, with gauge | 1 | $15 | $15 | Amazon | Inline |
-| 26 | Pneumatic Tubing | 6mm OD, 10m | 1 | $12 | $12 | Amazon | Polyurethane |
-| 27 | Quick Connect Fittings | 6mm push-to-connect | 10 | $1 | $10 | Amazon | Various types |
-
-**Pneumatics Subtotal: $207**
+**Purpose:** Base 3-axis gantry system for pick-and-place motion control
 
 ---
 
-## 🔌 Wiring & Connectors
+## 🎛️ PLC & Control System
 
-| # | Component | Specification | Qty | Unit Price | Total | Supplier | Notes |
-|---|-----------|--------------|-----|------------|-------|----------|-------|
-| 28 | Power Cable | 18 AWG, stranded | 20m | $0.50/m | $10 | Amazon | Black/Red pair |
-| 29 | Signal Cable | 22 AWG, 4-conductor | 15m | $0.80/m | $12 | Amazon | Shielded |
-| 30 | Ethernet Cable | Cat6, 5m | 2 | $5 | $10 | Amazon | PLC connection |
-| 31 | USB Cable | USB 3.0, 3m | 1 | $8 | $8 | Amazon | Camera cable |
-| 32 | Cable Glands | PG13.5, various | 10 | $1 | $10 | Amazon | Enclosure entry |
-| 33 | Cable Ties | Various sizes, 500pc | 1 | $8 | $8 | Amazon | Organization |
-| 34 | Ferrules | Bootlace, assorted | 200 | $10 | $10 | Amazon | Wire termination |
-| 35 | Heat Shrink Tubing | Assorted kit | 1 | $12 | $12 | Amazon | Protection |
+### 2. Click PLC Power Supply (C0-01AC)
 
-**Wiring Subtotal: $80**
+<p align="center">
+  <img src="https://via.placeholder.com/400x300?text=Power+Supply" width="40%" alt="PLC Power Supply">
+</p>
 
----
+- **Input:** 100-240 VAC nominal
+- **Output:** 24 VDC, 1.3A continuous
+- **Qty:** 1 | **Price:** $73.00
+- **Supplier:** [Automation Direct](https://www.automationdirect.com/)
+- **Status:** ✅ Arrived
 
-## 🔧 Fasteners & Hardware
+### 3. Click Plus PLC CPU (C2-01CPU-2)
 
-| # | Component | Specification | Qty | Supplier | Notes |
-|---|-----------|--------------|-----|----------|-------|
-| 36 | M5 Bolts | Various lengths, 100pc | 1 | Amazon | Frame assembly |
-| 37 | M4 Bolts | Various lengths, 100pc | 1 | Amazon | Motor mounting |
-| 38 | M3 Bolts | Various lengths, 50pc | 1 | Amazon | Electronics |
-| 39 | Washers | M3, M4, M5 assorted | 1 | Amazon | 200pc kit |
-| 40 | Lock Washers | M3, M4, M5 assorted | 1 | Amazon | 100pc kit |
-| 41 | Nylock Nuts | M3, M4, M5 assorted | 1 | Amazon | 150pc kit |
+<p align="center">
+  <img src="https://via.placeholder.com/400x300?text=PLC+CPU" width="40%" alt="PLC CPU">
+</p>
 
-**Fasteners Subtotal: $50 - $80** (depends on existing stock)
+- **Features:** 2 option slots, Ethernet, Serial, MicroB-USB ports, battery backup
+- **Power:** 24 VDC required
+- **I/O:** No on-board I/O (uses expansion modules)
+- **Qty:** 1 | **Price:** $207.90
+- **Supplier:** [Automation Direct](https://www.automationdirect.com/)
+- **Status:** ✅ Arrived
 
----
+### 4. Click Plus Discrete Combo Module (C2-14D2)
 
-## 🎨 Optional Components
+- **Input:** 8-point, 24 VDC, sinking/sourcing
+- **Output:** 6-point, 24 VDC, sourcing, 0.1A/point
+- **Qty:** 1 | **Price:** $89.10
+- **Status:** ✅ Arrived
 
-| # | Component | Specification | Unit Price | Purpose |
-|---|-----------|--------------|------------|---------|
-| 42 | LED Strip Lighting | White, 12V, 2m | $15 | Better card imaging |
-| 43 | Touch Screen | 7" HMI display | $80 | Alternative interface |
-| 44 | Cooling Fan | 120mm, 24V | $12 | Enclosure cooling |
-| 45 | Status Light Tower | Red/Yellow/Green | $35 | Visual status |
-| 46 | Buzzer | 24V, 85dB | $5 | Audio alerts |
-| 47 | Card Feeder Mechanism | Custom design | $50 | Automated loading |
-| 48 | RFID Reader | USB, 13.56MHz | $25 | Card tracking |
+### 5. Click Plus Discrete Combo Module (C2-14DR)
 
-**Optional Subtotal: $222**
+- **Input:** 8-point, 24 VDC, sinking/sourcing
+- **Output:** 6-point, Relay, 1A/point (6-240 VAC / 6-27 VDC)
+- **Qty:** 1 | **Price:** $102.60
+- **Status:** ✅ Arrived
 
----
+### 6. Click Discrete Output Module (C0-16TD1)
 
-## 🛠️ Tools Required
+- **Type:** 16-point, 5-27 VDC, sinking
+- **Configuration:** 2 isolated commons, 8 points per common, 0.1A/point
+- **Qty:** 1 | **Price:** $94.50
+- **Status:** ✅ Arrived
 
-### Essential Tools
+### 7. Click Discrete Input Module (C0-08ND3-1)
 
-- Allen key set (metric)
-- Screwdriver set (Phillips, flathead)
-- Wire strippers/crimpers
-- Multimeter
-- Soldering iron
-- Drill with bits
-- Tap and die set (M3, M4, M5)
+- **Type:** 8-point, 3.3-5 VDC, sinking/sourcing/TTL
+- **Configuration:** 2 isolated commons, 4 points per common
+- **Qty:** 1 | **Price:** $71.55
+- **Status:** ✅ Arrived
 
-### Recommended Tools
+### 8. USB Programming Cable (USB-CBL-AMICB15)
 
-- Oscilloscope (for debugging)
-- Wire labeler
-- Cable tester
-- 3D printer (for custom mounts)
-- Laser level (for alignment)
+- **Type:** USB A to MicroB-USB
+- **Length:** 15 ft
+- **Qty:** 1 | **Price:** $11.50
+- **Status:** ✅ Arrived
+
+**PLC System Subtotal: $639.15**
 
 ---
 
-## 📦 Packaging & Shipping
+## ⚙️ Motion Control & Motors
 
-### What Comes in Kit Form
+### 9. Stepper Motor Driver (DM556)
 
-- Linear rails with bearings (usually packaged together)
-- Lead screws with nuts
-- Stepper motors (may include test cables)
-- Motor drivers (heat sinks typically included)
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/71F29D3eL9L._AC_SL1500_.jpg" width="50%" alt="Stepper Driver">
+</p>
 
-### What Needs Separate Ordering
+- **Model:** Digital Microstep Driver, Two 2-Phase, 5.6A
+- **Compatibility:** NEMA23, NEMA34
+- **Power Supply:** 24V to 50V
+- **Current:** Adjustable 1.0A to 5.6A (8 levels)
+- **Features:** Optical isolation, 200kHz pulse response, PWM drive
+- **Qty:** 4 | **Unit Price:** $29.99 | **Total:** $119.96
+- **Supplier:** [Amazon.ca](https://www.amazon.ca/dp/B0CS3XBN2X)
+- **Status:** ✅ Arrived
 
-- Aluminum extrusion (cut to length)
-- Pneumatic fittings (sold individually)
-- Fasteners (buy assortment packs)
-- Wire (buy spools)
+**Motion Control Subtotal: $119.96**
 
 ---
 
-## 💰 Cost Breakdown by Category
+## 💨 Pneumatics & Vacuum System
+
+### 10. Vacuum Pump
+
+<p align="center">
+  <img src="https://via.placeholder.com/500x400?text=Diaphragm+Pump" width="50%" alt="Vacuum Pump">
+</p>
+
+- **Model:** 24V 0.4-1L/min Miniature Diaphragm Pump
+- **Flow Rate:** 0.4-1 L/min
+- **Voltage:** 24V DC
+- **Qty:** 1 | **Price:** $33.52
+- **Status:** ✅ Arrived
+
+### 11. Vacuum Pressure Switch (ZSE30)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61mnz1PT7ZL._SL1500_.jpg" width="45%" alt="Pressure Switch">
+</p>
+
+- **Range:** 0 to -101kPa (negative pressure)
+- **Voltage:** 12-24V DC
+- **Output:** 1 PNP
+- **Port:** G1/8
+- **Qty:** 1 | **Price:** $43.99
+- **Status:** ✅ Arrived
+
+### 12. Solenoid Valve (12V DC 1/4" 2-Way NC)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/611hPpI178L._AC_SL1500_.jpg" width="45%" alt="Solenoid Valve">
+</p>
+
+- **Type:** 2-way Normally Closed
+- **Voltage:** 12V DC
+- **Port Size:** 1/4"
+- **Material:** Aluminum
+- **Qty:** 4 | **Unit Price:** $22.99 | **Total:** $91.96
+- **Supplier:** [Amazon.ca](https://www.amazon.ca/dp/B0D7SZ6BB6)
+- **Status:** ✅ Arrived
+
+### 13. Suction Cups (20mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61DZ8WJUt-L._AC_SL1100_.jpg" width="35%" alt="20mm Suction Cup">
+</p>
+
+- **Model:** uxcell Bellows Suction Cup
+- **Diameter:** 20mm x M5 Joint
+- **Material:** Silicone
+- **Color:** Clear White
+- **Qty:** 4 pcs | **Price:** $15.39
+- **Status:** ✅ Arrived
+
+### 14. Suction Cups (30mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61QSJfvDuvL._AC_SL1100_.jpg" width="35%" alt="30mm Suction Cup">
+</p>
+
+- **Model:** uxcell Bellows Suction Cup
+- **Diameter:** 30mm x M5 Joint
+- **Material:** Silicone
+- **Qty:** 4 pcs | **Price:** $16.99
+- **Status:** ✅ Arrived
+
+**Pneumatics Subtotal: $185.86**
+
+---
+
+## 📷 Vision System
+
+### 15. InnoMaker 1080P USB Camera
+
+<p align="center">
+  <img src="https://via.placeholder.com/500x400?text=USB+Camera" width="50%" alt="USB Camera">
+</p>
+
+- **Resolution:** 1080P @ 30fps
+- **Format:** YUY2 and MJPEG
+- **FOV:** 130° (D), 103° (H)
+- **Lens:** M12 thread, industry standard
+- **Interface:** USB 2.0 UVC
+- **Qty:** 1 | **Price:** $28.35
+- **Supplier:** [Amazon.ca](https://www.amazon.ca/)
+- **Status:** ✅ Arrived
+
+### 16. Wide Angle Camera Lens (6mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61H9qz-ocOL._AC_SL1500_.jpg" width="40%" alt="Camera Lens">
+</p>
+
+- **Focal Length:** 6mm
+- **Aperture:** F2.0
+- **Resolution:** 3MP
+- **Mount:** M12 threaded
+- **Type:** Wide Angle
+- **Qty:** 1 | **Price:** $13.99
+- **Status:** ✅ Arrived
+
+**Vision System Subtotal: $42.34**
+
+---
+
+## ⚡ Electrical Components
+
+### 17. Mean Well Power Supply (LRS-200-36)
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x300?text=Power+Supply" width="40%" alt="36V Power Supply">
+</p>
+
+- **Model:** LRS-200-36
+- **Output:** 36V DC
+- **Input:** 90-132 VAC / 180-264 VAC / 240-370 VDC
+- **Type:** Enclosed AC-DC Converter
+- **Qty:** 1 | **Price:** $37.53
+- **Supplier:** [Digi-Key](https://www.digikey.ca/)
+- **Status:** ⏳ Not Arrived
+
+### 18. Mean Well Power Supply (LRS-150F-24)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/71r-O9guMFL._SL1000_.jpg" width="40%" alt="24V Power Supply">
+</p>
+
+- **Model:** LRS-150F-24
+- **Output:** 24V, 6.5A, 156W
+- **Type:** Single Output Switching
+- **Qty:** 1 | **Price:** $30.00
+- **Status:** ✅ Arrived
+
+### 19. DIN Rail Relays SPDT
+
+<p align="center">
+  <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/591/2900300.jpg" width="35%" alt="DIN Rail Relay">
+</p>
+
+- **Type:** General Purpose SPDT
+- **Rating:** 6A, 24V
+- **Mount:** DIN Rail
+- **Qty:** 5 | **Unit Price:** $27.00 | **Total:** $135.00
+- **Supplier:** Phoenix Contact via [Digi-Key](https://www.digikey.ca/)
+- **Status:** ✅ Arrived
+
+### 20. Terminal Blocks
+
+<p align="center">
+  <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/311/MFG_1020010000.jpg" width="35%" alt="Terminal Blocks">
+</p>
+
+- **Type:** Feed-through
+- **Wire Size:** 12-30 AWG
+- **Qty:** 30 | **Unit Price:** $2.50 | **Total:** $75.00
+- **Supplier:** Weidmüller via [Digi-Key](https://www.digikey.ca/)
+- **Status:** ✅ Arrived
+
+### 21. Emergency Stop Switch
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61EQoI6a87L._SL1500_.jpg" width="40%" alt="E-Stop Button">
+</p>
+
+- **Rating:** 660V, 10A AC
+- **Type:** Latching Button with Weatherproof Box
+- **Action:** Press to cut power, twist to reset
+- **Qty:** 1 | **Price:** $14.99
+- **Status:** ✅ Arrived
+
+### 22. COB LED Strip Light
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/614zyyw97AL._AC_SL1100_.jpg" width="50%" alt="LED Strip">
+</p>
+
+- **Type:** FCOB Flexible LED Strip
+- **Color:** Cool White 6000K
+- **Voltage:** DC 24V
+- **Density:** 480 LEDs/m
+- **Length:** 5 meters
+- **Width:** 8mm
+- **Qty:** 1 | **Price:** $25.99
+- **Status:** ✅ Arrived
+
+**Electrical Subtotal: $318.51**
+
+---
+
+## 🔧 Sensors & Switches
+
+### 23. Photoelectric Sensor
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x300?text=Photoelectric+Sensor" width="40%" alt="Photoelectric Sensor">
+</p>
+
+- **Model:** E3Z-D61 Type
+- **Voltage:** 12-24V DC, NPN
+- **Type:** Diffuse Reflection Infrared
+- **Detection Range:** 100mm
+- **Cable Length:** 1.9m
+- **Qty:** 1 | **Price:** $19.77
+- **Status:** ✅ Arrived
+
+### 24. Mechanical Limit Switch (V-156-1C25)
+
+<p align="center">
+  <img src="https://via.placeholder.com/300x250?text=Limit+Switch" width="30%" alt="Limit Switch">
+</p>
+
+- **Model:** Omron V-156-1C25
+- **Type:** Mechanical Limit Switch
+- **Qty:** 1 | **Price:** $3.33
+- **Supplier:** [Digi-Key](https://www.digikey.com/)
+- **Status:** ✅ Arrived
+
+### 25. Optical Endstop Switches
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/71TqDm5kw8L._SL1200_.jpg" width="45%" alt="Optical Endstop">
+</p>
+
+- **Type:** Optical Limit Switch Module
+- **Cable Length:** 1m
+- **Features:** Sensitive, quiet, high repeatability
+- **Qty:** 6 pcs | **Price:** $18.99
+- **Status:** ✅ Arrived
+
+---
+
+## 🔩 Mechanical Hardware & Fasteners
+
+### 26. Aluminum V-Slot Extrusion (2040)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61DBJxOyidL._SL1500_.jpg" width="50%" alt="V-Slot Rail">
+</p>
+
+- **Profile:** 2040 (20mm x 40mm)
+- **Length:** 800mm
+- **Material:** 6063 Aluminum, Anodized Black
+- **Slot Width:** 6.2mm
+- **Qty:** 2 pcs | **Price:** $47.99
+- **Status:** ✅ Arrived
+
+### 27. 2020 Corner Brackets & Hardware
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/71RO-RciESL._AC_SL1500_.jpg" width="45%" alt="Corner Brackets">
+</p>
+
+- **Contents:** 20x Corner Brackets, 40x M5 T-Nuts, 40x M5x10mm Screws
+- **Material:** Solid Cast Aluminum (brackets), Galvanized Steel (hardware)
+- **For:** 2020 Series Aluminum Profile
+- **Qty:** 1 set | **Price:** $22.00
+- **Status:** ✅ Arrived
+
+### 28. Corner Bracket Cubes (20x20x20mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/51I8XmJ8WSL._AC_SL1000_.jpg" width="40%" alt="Corner Cubes">
+</p>
+
+- **Size:** 20x20x20mm
+- **For:** 2020 Series, 6mm Slot
+- **Color:** Black
+- **Qty:** 8 pcs x 2 sets | **Price:** $36.99 x 2 = $73.98
+- **Status:** ✅ Arrived
+
+### 29. Cable Drag Chain
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61Dibdhvk4L._AC_SL1100_.jpg" width="45%" alt="Drag Chain">
+</p>
+
+- **Model:** R28/38
+- **Inner Dimensions:** 15mm (H) x 30mm (W)
+- **Length:** 1 meter
+- **Type:** Semi-enclosed with end connectors
+- **Color:** Black Plastic
+- **Qty:** 2 | **Unit Price:** $13.99 | **Total:** $27.98
+- **Status:** ✅ Arrived
+
+### 30. Stainless Steel Rods (3mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/41zm83244AL._SL1500_.jpg" width="40%" alt="Steel Rods">
+</p>
+
+- **Material:** 304 Stainless Steel
+- **Diameter:** 3mm (0.12")
+- **Length:** 200mm
+- **Color:** Silver
+- **Qty:** Multiple pieces | **Price:** $9.29
+- **Status:** ✅ Arrived
+
+### 31. Flanged Couplers (3mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61NPXUmO6tL._SL1500_.jpg" width="40%" alt="Couplers">
+</p>
+
+- **Inner Diameter:** 3mm
+- **Outer Diameter:** 10mm (cylinder), 22mm (base)
+- **Material:** High Hardness Metal
+- **Includes:** L-Wrench and locking screws
+- **Qty:** Set | **Price:** $11.99
+- **Status:** ✅ Arrived
+
+### 32. Compression Springs Assortment
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/81JG5r8gABL._SL1500_.jpg" width="40%" alt="Springs">
+</p>
+
+- **Quantity:** 300 pieces, 30 different sizes
+- **Material:** Stainless Steel
+- **Features:** Good fatigue strength, high ductility
+- **Qty:** 1 kit | **Price:** $19.99
+- **Status:** ✅ Arrived
+
+### 33. Rare Earth Magnets (6x3mm)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61dGfp5OhGL._SL1001_.jpg" width="35%" alt="Magnets">
+</p>
+
+- **Size:** 6mm diameter x 3mm thickness
+- **Material:** Neodymium with Nickel coating
+- **Finish:** Brushed Nickel
+- **Qty:** 100 pcs | **Price:** $16.99
+- **Status:** ✅ Arrived
+
+### 34. Wood Screws (#6 x 1/2")
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/51bfigFcM1L._SL1500_.jpg" width="35%" alt="Wood Screws">
+</p>
+
+- **Size:** #6 x 1/2"
+- **Head:** Flat Head Phillips
+- **Material:** 304 Stainless Steel
+- **Type:** Self-tapping
+- **Qty:** 100 pcs | **Price:** $10.59
+- **Status:** ✅ Arrived
+
+### 35. Screws/Nuts/Washers (Miscellaneous)
+
+- **Contents:** Various sizes and types
+- **Estimated Cost:** $20.00
+- **Status:** ✅ Arrived
+
+---
+
+## 🔌 Pneumatic Fittings & Tubing
+
+### 36. Silicone Tubing (5mm ID x 7mm OD)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/51eRbBSsiHL._AC_SL1500_.jpg" width="40%" alt="Silicone Tube">
+</p>
+
+- **Size:** 5mm ID x 7mm OD
+- **Length:** 3 meters
+- **Material:** Silicone Rubber
+- **Color:** Translucent
+- **Purpose:** Water/Air hose
+- **Qty:** 3m | **Price:** $16.99
+- **Status:** ✅ Arrived
+
+### 37. Brass Round Tube
+
+- **Material:** Brass
+- **Size:** 5mm OD, 0.5mm wall thickness
+- **Length:** 300mm
+- **Qty:** 3 pcs | **Price:** $16.69
+- **Status:** ✅ Arrived
+
+### 38. One-Way Check Valves (1/8")
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/51mjuTqBfDL._AC_SL1500_.jpg" width="35%" alt="Check Valve">
+</p>
+
+- **Size:** 1/8" (3mm)
+- **Dimensions:** 30.6mm x 14.9mm
+- **Material:** PP (Polypropylene)
+- **Type:** Non-return check valve
+- **Qty:** 5 pcs | **Price:** $13.09
+- **Status:** ✅ Arrived
+
+### 39-41. Brass Pipe Fittings (Various)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61tmhgVyGmL._AC_SL1200_.jpg" width="30%">
+  <img src="https://m.media-amazon.com/images/I/71gCMULcJjL._AC_SL1500_.jpg" width="30%">
+  <img src="https://m.media-amazon.com/images/I/61oVFWoj8TL._AC_SL1100_.jpg" width="30%">
+</p>
+
+- **Bulkhead Fitting:** 1/4" NPT F to F, 1.5" length ($17.99)
+- **Male Reducer:** 1/4" NPT M to M ($9.99)
+- **BSP to NPT Adapter:** 1/8" F BSP to 1/4" M NPT ($17.85)
+- **Status:** ✅ All Arrived
+
+---
+
+## 📦 Materials & Consumables
+
+### 42. MDF Board (1/2")
+
+<p align="center">
+  <img src="https://cdn.rona.ca/images/8914009_L.jpg" width="45%" alt="MDF Board">
+</p>
+
+- **Thickness:** 1/2 inch
+- **Size:** 4ft x 8ft
+- **Qty:** 1 | **Price:** $45.00
+- **Supplier:** [RONA](https://www.rona.ca/)
+- **Status:** ✅ Arrived
+
+### 43. 3D Printer Filament (PLA)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/81e+PjKedmL._AC_SL1500_.jpg" width="40%" alt="PLA Filament">
+</p>
+
+- **Brand:** Creality RFID
+- **Diameter:** 1.75mm
+- **Type:** PLA with RFID chip
+- **Speed:** 30-600mm/s compatible
+- **Weight:** 1kg per spool
+- **Qty:** 4 spools | **Unit Price:** $29.99 | **Total:** $119.96
+- **Status:** ✅ Arrived
+
+### 44. Playing Cards
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/51AjnKXN-qL._AC_SL1200_.jpg" width="35%" alt="Playing Cards">
+</p>
+
+- **Brand:** WES Bridge Playing Cards
+- **Finish:** Matte
+- **Material:** Premium Plastic
+- **Contents:** 2 deck set with sample bridge points card
+- **Qty:** 1 set | **Price:** $24.98
+- **Status:** ✅ Arrived
+
+### 45. Super Glue (CA Adhesive)
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/81KP61fKXxL._SL1500_.jpg" width="35%" alt="Super Glue">
+</p>
+
+- **Type:** Medium viscosity cyanoacrylate
+- **Strength:** 2610 PSI
+- **Size:** 4.6 oz
+- **Purpose:** Multi-purpose adhesive
+- **Qty:** 1 | **Price:** $18.29
+- **Status:** ✅ Arrived
+
+---
+
+## 🔌 DIN Rail & Wire Management
+
+### 46. 35mm DIN Rail
+
+<p align="center">
+  <img src="https://shop.sayal.com/cdn/shop/files/KER-101_540x.jpg" width="40%" alt="DIN Rail">
+</p>
+
+- **Size:** 7.5mm x 35mm
+- **Length:** 1 meter
+- **Part Number:** 58-415-0
+- **Qty:** 1 | **Price:** $14.95
+- **Supplier:** [Sayal Electronics](https://shop.sayal.com/)
+- **Status:** ✅ Arrived
+
+### 47. Wire Duct (35x25mm)
+
+<p align="center">
+  <img src="https://shop.sayal.com/cdn/shop/products/KFC-658_e99e1d2d-4144-4f4e-83fe-a8e09bec4f13_2048x2048.jpg" width="40%" alt="Wire Duct">
+</p>
+
+- **Model:** HVDR2540F-2M
+- **Size:** 1"W x 1.5"H x 78"L
+- **Slot:** 4mm, 1.4mm thick
+- **Color:** Grey
+- **Type:** Slotted
+- **Qty:** 1 | **Price:** $14.95
+- **Status:** ✅ Arrived
+
+### 48. Wire (Miscellaneous)
+
+- **Types:** Power and signal wire, various gauges
+- **Estimated Cost:** $100.00
+- **Status:** ✅ Arrived
+
+---
+
+## 🛠️ Specialized Motors
+
+### 49. DC Gear Motor
+
+<p align="center">
+  <img src="https://m.media-amazon.com/images/I/61eAufmHFdL._SL1500_.jpg" width="40%" alt="Gear Motor">
+</p>
+
+- **Model:** DMiotech Speed Reduction Motor
+- **Voltage:** 6V
+- **Speed:** 30 RPM
+- **Torque:** Rated Torque 12
+- **Shaft:** 10mm output shaft length
+- **Qty:** 1 | **Price:** $11.59
+- **Status:** ⏳ Not Arrived
+
+---
+
+## 📊 Cost Summary by Category
 
 ```
-┌─────────────────────────────────────┐
-│ Mechanical:    $285 - $350  (26%)   │
-│ Electronics:   $386 - $536  (45%)   │
-│ Pneumatics:    $207         (21%)   │
-│ Wiring:        $80          (8%)    │
-│ Fasteners:     $50 - $80    (5%)    │
-├─────────────────────────────────────┤
-│ SUBTOTAL:      $1,008 - $1,253      │
-│ Shipping:      ~$50 - $80           │
-│ Tax (varies):  ~$80 - $100          │
-├─────────────────────────────────────┤
-│ TOTAL:         $1,138 - $1,433      │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│ CNC Machine & Structure:      $469.99   │
+│ PLC & Control System:         $639.15   │
+│ Motion Control:                $119.96   │
+│ Pneumatics & Vacuum:          $185.86   │
+│ Vision System:                 $42.34   │
+│ Electrical Components:        $318.51   │
+│ Sensors & Switches:            $42.09   │
+│ Mechanical Hardware:          $177.81   │
+│ Pneumatic Fittings:            $72.61   │
+│ Materials & Consumables:      $208.23   │
+│ DIN Rail & Wiring:            $129.95   │
+├─────────────────────────────────────────┤
+│ ESTIMATED TOTAL:            ~$2,406.50   │
+└─────────────────────────────────────────┘
 ```
 
-### Budget Options
-
-**Minimum Build (~$650):**
-- Use Arduino instead of PLC ($-205)
-- Manual card feeding ($-50)
-- Used/salvaged frame materials ($-100)
-- Skip optional components ($-222)
-
-**Premium Build (~$1,800):**
-- Industrial PLC with HMI ($+400)
-- Better camera (industrial) ($+150)
-- Servo motors instead of steppers ($+200)
-- Professional fabrication ($+100)
+*Note: Some prices are estimates. Tax and shipping not included.*
 
 ---
 
-## 🏪 Recommended Suppliers
+## 🛒 Supplier Quick Links
 
 ### Primary Suppliers
 
-**Electronics:**
-- Amazon (fast shipping)
-- Digi-Key (quality components)
-- Mouser (wide selection)
-- StepperOnline (motors)
-
-**Mechanical:**
-- McMaster-Carr (high quality, expensive)
-- Amazon (budget-friendly)
-- AliExpress (cheapest, slow shipping)
-- Misumi (precision parts)
-
-**Pneumatics:**
-- Pneumadyne
-- McMaster-Carr
-- Amazon (for common parts)
-
 **Control Systems:**
-- Automation Direct
-- Allied Electronics
-- Siemens direct
+- [Automation Direct](https://www.automationdirect.com/) - PLC components
+- [Digi-Key](https://www.digikey.ca/) - Electronic components
 
-### Money-Saving Tips
+**Mechanical & Hardware:**
+- [Amazon.ca](https://www.amazon.ca/) - General hardware
+- [VEVOR](https://www.vevor.ca/) - CNC machine
 
-1. **Buy kits** - Fastener/bearing assortments cheaper than individual
-2. **Group orders** - Combine with friends to save on shipping
-3. **AliExpress** - 50-70% cheaper, but 2-4 week shipping
-4. **Local salvage** - Check industrial surplus stores
-5. **3D print** - Custom brackets instead of buying aluminum
-
----
-
-## 📋 Shopping List Template
-
-Use this checklist when ordering:
-
-```
-□ Mechanical Frame
-  □ (3) Linear rails - 1000mm
-  □ (12) LM20UU bearings
-  □ (3) Lead screws - 8mm x 1000mm
-  □ (6m) 2020 Aluminum extrusion
-  □ (16) Corner brackets
-  
-□ Motors & Drivers
-  □ (3) NEMA 23 stepper motors
-  □ (3) TB6600 drivers
-  □ (1) 24V 15A power supply
-  
-□ Control System
-  □ (1) PLC or Arduino
-  □ (6) Limit switches
-  □ (1) E-stop button
-  
-□ Vision System
-  □ (1) USB camera 1080p
-  □ (2m) LED strip lighting
-  
-□ Pneumatics
-  □ (1) Parallel gripper
-  □ (1) 5/2 solenoid valve
-  □ (10m) 6mm pneumatic tubing
-  □ (10) Quick-connect fittings
-  
-□ Wiring
-  □ (20m) 18AWG power wire
-  □ (15m) 22AWG signal wire
-  □ (2) Ethernet cables
-  □ (500) Cable ties
-  
-□ Fasteners
-  □ M3, M4, M5 bolt assortments
-  □ Washer assortments
-  □ Nylock nut assortments
-```
+**Materials:**
+- [RONA](https://www.rona.ca/) - Building materials
+- [Sayal Electronics](https://shop.sayal.com/) - Electrical supplies
 
 ---
 
-## 🔄 Alternative Components
+## 📦 Parts Status
 
-### Low-Cost Alternatives
-
-| Original | Alternative | Savings | Trade-off |
-|----------|-------------|---------|-----------|
-| Siemens PLC | Arduino Mega + GRBL | $200 | Less industrial, more coding |
-| Industrial camera | Webcam (Logitech C920) | $150 | Lower resolution |
-| Pneumatic gripper | Servo gripper | $20 | Less grip force |
-| Aluminum extrusion | Wood frame | $50 | Less rigid |
-
-### Higher-Performance Upgrades
-
-| Component | Upgrade | Cost | Benefit |
-|-----------|---------|------|---------|
-| Stepper motors | Servo motors | +$300 | Faster, closed-loop |
-| USB camera | Industrial GigE | +$200 | Better image quality |
-| TB6600 drivers | Closed-loop drivers | +$150 | No missed steps |
-| Open frame | Enclosed frame | +$200 | Professional look |
+✅ **Arrived:** 46 items  
+⏳ **Pending:** 2 items  
+📋 **Total:** 48 unique components
 
 ---
 
-## 📸 Component Images
+## 🔗 Quick Navigation
 
-### Mechanical Components
-
-<p align="center">
-  <img src="images/linear-rail.jpg" width="30%" alt="Linear Rail">
-  <img src="images/lead-screw.jpg" width="30%" alt="Lead Screw">
-  <img src="images/stepper-motor.jpg" width="30%" alt="Stepper Motor">
-</p>
-
-*Figure 1: Linear Rail, Lead Screw, and Stepper Motor*
-
-### Electronics
-
-<p align="center">
-  <img src="images/plc-controller.jpg" width="45%" alt="PLC Controller">
-  <img src="images/stepper-driver.jpg" width="45%" alt="Stepper Driver">
-</p>
-
-*Figure 2: PLC Controller and Stepper Motor Driver*
-
-### Pneumatic Components
-
-<p align="center">
-  <img src="images/pneumatic-gripper.jpg" width="45%" alt="Pneumatic Gripper">
-  <img src="images/solenoid-valve.jpg" width="45%" alt="Solenoid Valve">
-</p>
-
-*Figure 3: Pneumatic Gripper and Solenoid Valve*
-
-### Camera Setup
-
-<p align="center">
-  <img src="images/camera-mount.jpg" width="60%" alt="Camera Mounting">
-</p>
-
-*Figure 4: Camera mounting position and LED lighting*
-
----
-
-## 🛒 Where to Buy (with Direct Links)
-
-### Amazon Links
-
-- [NEMA 23 Stepper Motor](https://www.amazon.com/s?k=nema+23+stepper+motor) - $20-30
-- [TB6600 Stepper Driver](https://www.amazon.com/s?k=tb6600+stepper+driver) - $10-15
-- [Linear Rail LM20UU](https://www.amazon.com/s?k=linear+rail+20mm) - $25-35
-- [Pneumatic Gripper MHZ2](https://www.amazon.com/s?k=pneumatic+gripper+parallel) - $30-45
-- [Logitech C920 Camera](https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1) - $70
-
-### Specialty Suppliers
-
-- [StepperOnline](https://www.omc-stepperonline.com/) - High-quality stepper motors
-- [McMaster-Carr](https://www.mcmaster.com/) - Industrial components
-- [Automation Direct](https://www.automationdirect.com/) - PLCs and controls
-- [Misumi](https://us.misumi-ec.com/) - Precision mechanical parts
-
-### Budget Options
-
-- [AliExpress Components](https://www.aliexpress.com/wholesale?SearchText=nema+23) - 50% cheaper, slower shipping
-
----
-
-## 🔗 Quick Links
-
+- [← Back to Main README](README.md)
 - [Hardware Assembly Guide](HARDWARE.md)
 - [Installation Guide](INSTALLATION.md)
-- [Supplier Contact List](#) (coming soon)
-- [3D Printable Parts](#) (coming soon)
 
 ---
 
-## 📞 Support
-
-Questions about components?
-1. Check [Hardware Guide](HARDWARE.md) for specifications
-2. See [Troubleshooting](TROUBLESHOOTING.md) for alternatives
-3. Open [GitHub Issue](https://github.com/yourusername/Mechatronics-card-sorting-system/issues) with question
-
----
-
-**Last Updated:** April 2025  
-**Currency:** USD  
-**Prices:** Approximate, subject to change
-
-[← Back to Main README](README.md)
+**Last Updated:** April 2026  
+**Project:** Mechatronics Card Sorting System - 2221  
+**Total Investment:** ~$2,400 CAD
