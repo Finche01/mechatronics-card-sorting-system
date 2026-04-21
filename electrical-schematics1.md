@@ -1,6 +1,4 @@
-# Electrical Schematics
-
-## System Architecture Overview
+# Electrical Overview
 
 The electrical system consists of three main subsystems:
 1. **Power Distribution System** - Multi-voltage power supply and protection circuits
@@ -44,9 +42,7 @@ The electrical system consists of three main subsystems:
 | **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
-### Motor Driver Pinout
-
-| | |
+|||
 | Motor Driver Pinout | Driver Config |
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
@@ -76,8 +72,6 @@ The electrical system consists of three main subsystems:
 ## Pneumatic Control Schematic
 
 ![Pneumatic Control Schematic](image/schematic_images/Pneumatic_schematic.png)
-
-### Pneumatic System Components
 
 | Component | Description | Function |
 |:----------|:------------|:---------|
