@@ -24,6 +24,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **I/O Combo Module** | 1 | $89.10 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt 24VDC sourcing 0.1A/point, Removable terminal | <img src="image/bom_images/component_004.png" width="160" alt="MOD"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14d2) |
 | **I/O Combo Module** | 1 | $102.60 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt Relay 1A/point (6-240VAC/6-27VDC), Removable terminal | <img src="image/bom_images/component_005.png" width="160" alt="MOD"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14dr) |
 | **Output Module** | 1 | $94.50 | 16-pt discrete output, 5-27VDC sinking, 2 isolated commons, 8 pts/common, 0.1A/point | <img src="image/bom_images/component_008.png" width="160" alt="OUT"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/stackable_i-z-o_modules/c0-16td1) |
+| **35mm DIN Rail** | 1 | $14.95 | 7.5×35mm, 1 meter, Part# 58-415-0 | <img src="image/bom_images/component_046.png" width="160" alt="DIN"> | [Purchase](https://shop.sayal.com/products/ker-101) |
 
 ---
 
@@ -34,6 +35,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **USB Camera** | 1 | $28.35 | 1080P@30fps USB2.0 UVC Camera, YUY2/MJPEG format, FOV 130°(D)/103°(H), M12 lens mount, Indoor/Outdoor rated | <img src="image/bom_images/component_012.png" width="160" alt="Cam"> | [Purchase](https://www.amazon.ca/dp/B0CNCSFQC1) |
 | **6mm Wide Angle Lens** | 1 | $13.99 | uxcell 3MP F2.0 CCTV Camera Lens, 6mm focal length, M12 threaded, Black, For IP cameras | <img src="image/bom_images/component_018.png" width="160" alt="Lens"> | [Purchase](https://www.amazon.ca/dp/B0CWRYQGZY) |
 | **USB Exntension Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | <img src="image/bom_images/component_006.png" width="160" alt="USB"> | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
+| **COB LED Strip** | 1 | $25.99 | FCOB 24V Cool White 6000K, 5m length, 480 LEDs/m, 8mm width, Dimmable | <img src="image/bom_images/component_023.png" width="160" alt="LED"> | [Purchase](https://www.amazon.ca/dp/B0F83XN79B) |
 
 **Vision Subtotal: $42.34**
 
@@ -48,7 +50,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **DIN Rail <br>Relay SPDT** | 5 | $27.00 | Phoenix Contact General Purpose SPDT, 6A 24V, DIN rail mount | <img src="image/bom_images/component_047.jpg" width="160" alt="Relay"> | [Datasheet](https://www.phoenixcontact.com/) · [Purchase](https://www.digikey.ca/en/products/detail/phoenix-contact/2900300/2742133) |
 | **Terminal Block** | 30 | $2.50 | Weidmüller Feed-Through, 12-30 AWG, DIN rail mount | <img src="image/bom_images/component_048.jpg" width="160" alt="Term"> | [Datasheet](https://www.weidmuller.com/) · [Purchase](https://www.digikey.ca/en/products/detail/weidm%C3%BCller/1020010000/412674) |
 | **Emergency Stop Button** | 1 | $14.99 | 660V 10A AC, Latching with weatherproof box, Twist-release, Instant power cutoff | <img src="image/bom_images/component_027.png" width="160" alt="EStop"> | [Purchase](https://www.amazon.ca/dp/B00NTT91Y0) |
-| **COB LED Strip** | 1 | $25.99 | FCOB 24V Cool White 6000K, 5m length, 480 LEDs/m, 8mm width, Dimmable | <img src="image/bom_images/component_023.png" width="160" alt="LED"> | [Purchase](https://www.amazon.ca/dp/B0F83XN79B) |
+| **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
 
 **Electrical Subtotal: $215.98**
 
@@ -106,11 +108,8 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | <img src="image/bom_images/component_019.png" width="160" alt="Cards"> | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
-| **MDF Board 1/2"** | 1 | $45.00 | 4ft × 8ft × 1/2" MDF Panel | <img src="image/bom_images/component_044.png" width="160" alt="MDF"> | [Purchase](https://www.rona.ca/en/product/1-2-in-x-49-in-x-97-in-mdf-panel-bm003054-49585308) |
 | **PLA Filament** | 4 | $29.99 | Creality RFID, 1.75mm, 1kg/spool, High speed 30-600mm/s compatible | <img src="image/bom_images/component_024.jpg" width="160" alt="PLA"> | [Purchase](https://www.amazon.ca/dp/B0DHXDRZ74) |
 | **Super Glue** | 1 | $18.29 | Medium viscosity cyanoacrylate, 2610 PSI, 4.6oz, Multi-purpose | <img src="image/bom_images/component_034.jpg" width="160" alt="Glue"> | [Purchase](https://www.amazon.ca/dp/B0DMP3QWD3) |
-| **35mm DIN Rail** | 1 | $14.95 | 7.5×35mm, 1 meter, Part# 58-415-0 | <img src="image/bom_images/component_046.png" width="160" alt="DIN"> | [Purchase](https://shop.sayal.com/products/ker-101) |
-| **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
 | **Wood Screws #6×1/2"** | 1 (100pcs) | $10.59 | 304 SS Flat Head Phillips, Self-tapping | <img src="image/bom_images/component_033.png" width="160" alt="Screws"> | [Purchase](https://www.amazon.ca/dp/B0CWVHV9VJ) |
 | **Misc Screws/Nuts/Washers** | 1 | $20.00 | Various sizes and types | - | - |
