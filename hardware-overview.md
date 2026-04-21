@@ -25,15 +25,7 @@
 
 | Configuration | Image | Description |
 |---------------|-------|-------------|
-| **1. Transportation Mode** | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) | Two-tier collapsible enclosure designed for compact storage or transport. The folding mechanism allows the top frame to be mounted on the base frame with t-nut screws. |
-| **2. Operational Mode** | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png) | Standard vertical enclosure configuration providing full working structure with easy of access to control panel. |
+| **Transportation Mode** | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) | Two-tier collapsible enclosure designed for compact storage or transport. The folding mechanism allows the top frame to be mounted on the base frame with t-nut screws. |
+| **Operational Mode** | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png) | Standard vertical enclosure configuration providing full working structure with easy of access to control panel. |
 
 ---
-
-## Technical Specifications
-### Motion System
-| Axis | Travel (mm) | Motor Type | Drive System |
-|------|-------------|------------|--------------|
-| X    | TBD         | NEMA 17/23 | Belt/Lead Screw |
-| Y    | TBD         | NEMA 17/23 (Dual) | Belt/Lead Screw |
-| Z    | TBD         | NEMA 17/23 | Lead Screw |
