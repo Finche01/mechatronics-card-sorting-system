@@ -10,7 +10,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
-| **VEVOR <br> CNC Machine** | 1 | $469.99 | 3-Axis Wood Engraving Milling Machine, 300W Spindle, 15.75" x 15.75" x 2.36" Working Area, Aluminum Alloy Structure, Offline Controller included | <img src="image/bom_images/component_001.png" width="160" alt="CNC"> | [Purchase](https://www.vevor.ca/) |
+| **CNC Machine** | 1 | $469.99 | 3-Axis Wood Engraving Milling Machine, 300W Spindle, 15.75" x 15.75" x 2.36" Working Area, Aluminum Alloy Structure, Offline Controller included | <img src="image/bom_images/component_001.png" width="160" alt="CNC"> | [Purchase](https://www.vevor.ca/) |
 | **Stepper Driver** | 4 | $29.99 | Digital Microstep Driver, 2-Phase 5.6A for NEMA23/34, 24-50V supply, 8-level adjustable current 1.0-5.6A, Optical isolation, 200kHz pulse response | <img src="image/bom_images/component_026.jpg" width="160" alt="Driver"> | [Datasheet](https://www.omc-stepperonline.com/download/DM556T.pdf) · [Purchase](https://www.amazon.ca/dp/B0CS3XBN2X) |
 
 ---
