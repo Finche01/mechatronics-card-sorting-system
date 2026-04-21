@@ -10,15 +10,11 @@ The electrical system consists of three main subsystems:
 
 ![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
 
-### Power Supply Architecture
-
 | Supply Unit | Input | Output | Current | Application |
 |:------------|:------|:-------|:--------|:------------|
 | **POWER_SUPPLY_1** | 240VAC / 1.3A | 24VDC | PLC rated | PLC and I/O modules |
 | **POWER_SUPPLY_2** | 240VAC / 8.5A | 24VDC | Motors rated | Motor drivers |
 | **DC/DC CONVERTER** | 24VDC | 12VDC | TBD | Solenoids/Accessories |
-
-### Terminal Block Assignments
 
 | Terminal Block | Voltage | Usage |
 |:--------------|:--------|:------|
