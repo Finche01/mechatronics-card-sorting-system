@@ -6,35 +6,16 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 📦 Cost Summary
-
-| Category | Cost |
-|----------|------|
-| CNC Machine & Structure | $469.99 |
-| PLC & Control System | $639.15 |
-| Motion Control | $119.96 |
-| Pneumatics & Vacuum | $201.85 |
-| Vision System | $42.34 |
-| Power Supplies | $67.53 |
-| Electrical Components | $188.09 |
-| Sensors & Switches | $42.09 |
-| Hardware & Fasteners | $177.81 |
-| Pneumatic Fittings | $72.61 |
-| Materials | $208.23 |
-| Wire Management | $129.95 |
-| **TOTAL** | **~$2,360** |
-
----
-
-## 🏭 CNC Machine & Structure
+## 🏭 3-Axis Gantry
 
 | Part | Qty | Price | Summary | Pic | Links |
 |------|-----|-------|---------|-----|-------|
 | **VEVOR CNC Router Machine** | 1 | $469.99 | 3-Axis Wood Engraving Milling Machine, 300W Spindle, 15.75" x 15.75" x 2.36" Working Area, Aluminum Alloy Structure, Offline Controller included | ![CNC](https://via.placeholder.com/100x100?text=CNC) | [Purchase](https://www.vevor.ca/) |
+| **DM556 Stepper Driver** | 4 | $29.99 | Digital Microstep Driver, 2-Phase 5.6A for NEMA23/34, 24-50V supply, 8-level adjustable current 1.0-5.6A, Optical isolation, 200kHz pulse response | ![Driver](https://m.media-amazon.com/images/I/71F29D3eL9L._AC_SL1500_.jpg) | [Datasheet](https://www.omc-stepperonline.com/download/DM556T.pdf) · [Purchase](https://www.amazon.ca/dp/B0CS3XBN2X) |
 
 ---
 
-## 🎛️ PLC & Control System
+## 🎛️ PLC System
 
 | Part | Qty | Price | Summary | Pic | Links |
 |------|-----|-------|---------|-----|-------|
@@ -43,21 +24,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **C2-14D2 Combo Module** | 1 | $89.10 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt 24VDC sourcing 0.1A/point, Removable terminal | ![MOD](https://via.placeholder.com/100x100?text=MOD) | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14d2) |
 | **C2-14DR Combo Module** | 1 | $102.60 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt Relay 1A/point (6-240VAC/6-27VDC), Removable terminal | ![MOD](https://via.placeholder.com/100x100?text=MOD) | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14dr) |
 | **C0-16TD1 Output Module** | 1 | $94.50 | 16-pt discrete output, 5-27VDC sinking, 2 isolated commons, 8 pts/common, 0.1A/point | ![OUT](https://via.placeholder.com/100x100?text=OUT) | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/stackable_i-z-o_modules/c0-16td1) |
-| **C0-08ND3-1 Input Module** | 1 | $71.55 | 8-pt discrete input, 3.3-5VDC sink/source/TTL, 2 isolated commons, 4 pts/common | ![IN](https://via.placeholder.com/100x100?text=IN) | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/stackable_i-z-o_modules/c0-08nd3-1) |
-| **USB-CBL-AMICB15 Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | ![USB](https://via.placeholder.com/100x100?text=USB) | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
-
-**PLC Subtotal: $639.15**
-
----
-
-## ⚙️ Motion Control
-
-| Part | Qty | Price | Summary | Pic | Links |
-|------|-----|-------|---------|-----|-------|
-| **DM556 Stepper Driver** | 4 | $29.99 | Digital Microstep Driver, 2-Phase 5.6A for NEMA23/34, 24-50V supply, 8-level adjustable current 1.0-5.6A, Optical isolation, 200kHz pulse response | ![Driver](https://m.media-amazon.com/images/I/71F29D3eL9L._AC_SL1500_.jpg) | [Datasheet](https://www.omc-stepperonline.com/download/DM556T.pdf) · [Purchase](https://www.amazon.ca/dp/B0CS3XBN2X) |
-
-**Motion Subtotal: $119.96** (4 × $29.99)
-
 ---
 
 ## 💨 Pneumatics & Vacuum
@@ -82,26 +48,18 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 |------|-----|-------|---------|-----|-------|
 | **InnoMaker USB Camera** | 1 | $28.35 | 1080P@30fps USB2.0 UVC Camera, YUY2/MJPEG format, FOV 130°(D)/103°(H), M12 lens mount, Indoor/Outdoor rated | ![Cam](https://via.placeholder.com/100x100?text=Cam) | [Purchase](https://www.amazon.ca/dp/B0CNCSFQC1) |
 | **6mm Wide Angle Lens** | 1 | $13.99 | uxcell 3MP F2.0 CCTV Camera Lens, 6mm focal length, M12 threaded, Black, For IP cameras | ![Lens](https://m.media-amazon.com/images/I/61H9qz-ocOL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B0CWRYQGZY) |
+| **USB-CBL-AMICB15 Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | ![USB](https://via.placeholder.com/100x100?text=USB) | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
 
 **Vision Subtotal: $42.34**
 
 ---
 
-## ⚡ Power Supplies
+## 🔌 Power / Electrical Components
 
 | Part | Qty | Price | Summary | Pic | Links |
 |------|-----|-------|---------|-----|-------|
 | **LRS-200-36 Power Supply** | 1 | $37.53 | Mean Well Enclosed AC-DC Converter, 36V output, 90-132/180-264 VAC input, 240-370 VDC input | ![PS36](https://via.placeholder.com/100x100?text=36V) | [Datasheet](https://www.digikey.ca/) · [Purchase](https://www.digikey.ca/en/products/detail/mean-well-usa-inc/LRS-200-36/7705024) |
 | **LRS-150F-24 Power Supply** | 1 | $30.00 | Mean Well 24V 6.5A 156W, Single Output Switching Power Supply | ![PS24](https://m.media-amazon.com/images/I/71r-O9guMFL._SL1000_.jpg) | [Datasheet](https://www.meanwell.com/) · [Purchase](https://www.amazon.ca/dp/B018RE4DQ2) |
-
-**Power Supplies Subtotal: $67.53**
-
----
-
-## 🔌 Electrical Components
-
-| Part | Qty | Price | Summary | Pic | Links |
-|------|-----|-------|---------|-----|-------|
 | **DIN Rail Relay SPDT** | 5 | $27.00 | Phoenix Contact General Purpose SPDT, 6A 24V, DIN rail mount | ![Relay](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/591/2900300.jpg) | [Datasheet](https://www.phoenixcontact.com/) · [Purchase](https://www.digikey.ca/en/products/detail/phoenix-contact/2900300/2742133) |
 | **Terminal Block** | 30 | $2.50 | Weidmüller Feed-Through, 12-30 AWG, DIN rail mount | ![Term](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/311/MFG_1020010000.jpg) | [Datasheet](https://www.weidmuller.com/) · [Purchase](https://www.digikey.ca/en/products/detail/weidm%C3%BCller/1020010000/412674) |
 | **Emergency Stop Button** | 1 | $14.99 | 660V 10A AC, Latching with weatherproof box, Twist-release, Instant power cutoff | ![EStop](https://m.media-amazon.com/images/I/61EQoI6a87L._SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B00NTT91Y0) |
@@ -123,7 +81,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🔩 Mechanical Hardware
+## 🔩 Mechanical Components
 
 | Part | Qty | Price | Summary | Pic | Links |
 |------|-----|-------|---------|-----|-------|
@@ -178,53 +136,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
 
 **Wire Management Subtotal: $129.90**
-
----
-
-## 📊 Total Cost Breakdown
-
-```
-┌──────────────────────────────────────┐
-│ CNC Machine:              $469.99    │
-│ PLC System:               $639.15    │
-│ Motion Control:           $119.96    │
-│ Pneumatics:               $226.52    │
-│ Vision:                    $42.34    │
-│ Power Supplies:            $67.53    │
-│ Electrical:               $215.98    │
-│ Sensors:                   $42.09    │
-│ Hardware:                 $230.71    │
-│ Fittings:                  $79.51    │
-│ Materials:                $238.25    │
-│ Wire Management:          $129.90    │
-├──────────────────────────────────────┤
-│ GRAND TOTAL:           $2,501.93     │
-└──────────────────────────────────────┘
-```
-
-*All prices in CAD. Tax and shipping not included.*
-
----
-
-## 📋 Parts Status
-
-- ✅ **Arrived:** 46 items
-- ⏳ **Pending:** 2 items (LRS-200-36, DC Gear Motor)
-- 📦 **Total:** 48 unique components
-
----
-
-## 🛒 Supplier Directory
-
-| Supplier | Items | Website |
-|----------|-------|---------|
-| **Automation Direct** | PLC system (7 items) | [automationdirect.com](https://www.automationdirect.com/) |
-| **Amazon.ca** | Hardware & components (30+ items) | [amazon.ca](https://www.amazon.ca/) |
-| **Digi-Key** | Electronics & sensors (4 items) | [digikey.ca](https://www.digikey.ca/) |
-| **VEVOR** | CNC machine (1 item) | [vevor.ca](https://www.vevor.ca/) |
-| **RONA** | Building materials (1 item) | [rona.ca](https://www.rona.ca/) |
-| **Sayal Electronics** | Electrical supplies (2 items) | [shop.sayal.com](https://shop.sayal.com/) |
-
 ---
 
 ## 🔗 Quick Links
@@ -232,9 +143,3 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 - [← Back to Main README](README.md)
 - [Hardware Assembly Guide](HARDWARE.md)
 - [Installation Guide](INSTALLATION.md)
-
----
-
-**Last Updated:** April 2026  
-**Project:** Mechatronics Card Sorting System - 2221  
-**Total Investment:** ~$2,500 CAD
