@@ -8,7 +8,7 @@ This project was developed at Seneca Polytec for Technical Capstone Project (Win
 
 **The key features of the system:**
 1. <span style="color: #4A9EFF;">**Programmable Logic Controller (PLC) - Centralized processing unit**</span>
-2. <span style="color: #4A9EFF;">**Three-axis gantry - Material transport unit **</span>
+2. <span style="color: #4A9EFF;">**Three-axis gantry - Material transport unit**</span>
 3. <span style="color: #4A9EFF;">**Machine Vision (USB camera) - Image data acquisition unit**</span>
 4. <span style="color: #4A9EFF;">**Pneumatic circuit - Material handling unit**</span>
 
