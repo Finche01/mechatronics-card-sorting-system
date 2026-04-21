@@ -1,11 +1,7 @@
 # Hardware Overview
 
-### Assembled 3-Axis Gantry
+## 3-Axis Gantry
 ![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)
-
----
-
-### Component Identification
 ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)
 
 **Key Components:**
