@@ -39,8 +39,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **USB Exntension Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | <img src="image/bom_images/component_006.png" width="160" alt="USB"> | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
 | **COB LED Strip** | 1 | $25.99 | FCOB 24V Cool White 6000K, 5m length, 480 LEDs/m, 8mm width, Dimmable | <img src="image/bom_images/component_023.png" width="160" alt="LED"> | [Purchase](https://www.amazon.ca/dp/B0F83XN79B) |
 
-**Vision Subtotal: $42.34**
-
 ---
 
 ## Pneumatics & Vacuum Operation
@@ -59,7 +57,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Bulkhead Fitting** | 1 (2pcs) | $17.99 | 1/4" NPT F to F, Brass, 1.5" length | <img src="image/bom_images/component_032.jpg" width="160" alt="Bulkhead"> | [Purchase](https://www.amazon.ca/dp/B07D6NZLXF) |
 | **Brass Male Reducer** | 1 (5pcs) | $9.99 | 1/4" NPT M to M | <img src="image/bom_images/component_042.jpg" width="160" alt="Reducer"> | [Purchase](https://www.amazon.ca/dp/B0FB8CC665) |
 | **BSP to NPT Adapter** | 1 | $17.85 | 1/8" F BSP to 1/4" M NPT, Solid brass, CNC machined | <img src="image/bom_images/component_037.jpg" width="160" alt="Adapter"> | [Purchase](https://www.amazon.ca/) |
-**Pneumatics Subtotal: $226.52**
 
 ---
 
@@ -74,8 +71,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Emergency Stop Button** | 1 | $14.99 | 660V 10A AC, Latching with weatherproof box, Twist-release, Instant power cutoff | <img src="image/bom_images/component_027.png" width="160" alt="EStop"> | [Purchase](https://www.amazon.ca/dp/B00NTT91Y0) |
 | **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
 
-**Electrical Subtotal: $215.98**
-
 ---
 
 ## Sensors & Switches
@@ -85,8 +80,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Photoelectric Sensor** | 1 | $19.77 | E3Z-D61 Type, 12-24VDC NPN, Diffuse Reflection Infrared, 100mm detection range, 1.9m cable | <img src="image/bom_images/component_011.png" width="160" alt="Photo"> | [Datasheet (Similar)](https://www.amazon.ca/) · [Purchase](https://www.amazon.ca/dp/B083FQYLJD) |
 | **Limit Switch** | 1 | $3.33 | Omron Mechanical Limit Switch | <img src="image/bom_images/component_015.png" width="160" alt="Limit"> | [Datasheet](https://www.omron.com/) · [Purchase](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/V-156-1C25/5237043) |
 | **Optical Endstop** | 1 (6pcs) | $18.99 | Optical Limit Switch Module, 1m cable, Sensitive/quiet, High repeatability, No mechanical collision | <img src="image/bom_images/component_043.jpg" width="160" alt="Optical"> | [Purchase](https://www.amazon.ca/dp/B09BQ8SNMK) |
-
-**Sensors Subtotal: $42.09**
 
 ---
 
