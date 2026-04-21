@@ -9,14 +9,14 @@ This document provides technical documentation for the 3-axis CNC/motion platfor
 ## Assembly Views
 
 ### Assembled Configuration
-![3-Axis Platform - Assembled View](docs/images/3-axis-assembled.png)
+![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)
 
 The complete assembly showing the XYZ gantry system with dual Y-axis motors and aluminum extrusion frame construction.
 
 ---
 
 ### Component Identification
-![3-Axis Platform - Exploded View](docs/images/3-axis-exploded.png)
+![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)
 
 **Key Components:**
 - **X-Axis**: Horizontal gantry carriage with stepper motor
@@ -33,12 +33,12 @@ The complete assembly showing the XYZ gantry system with dual Y-axis motors and 
 ## Enclosure Configurations
 
 ### Folding Frame Assembly
-![Enclosure - Folding Configuration](docs/images/assembly-fold.png)
+![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png)
 
 Two-tier enclosure design with collapsible upper section for compact storage or transport. The folding mechanism allows the top frame to nest with the base.
 
 ### Vertical Frame Assembly
-![Enclosure - Vertical Configuration](docs/images/assembly-vertical.png)
+![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png)
 
 Standard vertical enclosure configuration providing full working envelope access while protecting the motion platform.
 
