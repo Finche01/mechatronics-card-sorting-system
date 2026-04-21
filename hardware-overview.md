@@ -5,8 +5,6 @@
 ![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)<br><br> ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)<br>
 
 ---
-## Key Components
-
 | Component | Description | Function |
 |-----------|-------------|----------|
 | **X-Axis** | Horizontal gantry carriage with stepper motor | Left-right motion control |
