@@ -47,7 +47,7 @@ The electrical system consists of three main subsystems:
 ### Motor Driver Pinout
 
 | | |
-| ### Motor Driver Pinout| ### Driver Config|
+| Motor Driver Pinout | Driver Config |
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
 ### Signal Pins
@@ -70,16 +70,6 @@ The electrical system consists of three main subsystems:
 | **VEL-** | Velocity feedback ground | Optional encoder feedback signal (ground/negative) |
 | **A+ / A-** | Motor coil A | Phase A winding connections to stepper motor (bipolar) |
 | **B+ / B-** | Motor coil B | Phase B winding connections to stepper motor (bipolar) |
-
-
-
-### Control Signal Flow
-
-1. **Logic Power (TB_Logic)**: Supplies 24V to I/O modules and control circuits
-2. **C2-14DR Module**: Generates STEP/DIR/ENABLE signals for all 4 motor drivers
-3. **Emergency Stop (ESTOP)**: Breaks enable circuit to all motors when activated
-4. **Motor Power (TB_Motor)**: Supplies 24V to motor drivers
-5. **Motors**: X-axis, Y1-axis, Y2-axis, and Z-axis stepper motors
 
 ---
 
