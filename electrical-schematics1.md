@@ -1,23 +1,24 @@
 # Electrical Overview
-
 The electrical system consists of three main subsystems:
 1. **Power Distribution System** - Multi-voltage power supply and protection circuits
 2. **Motor Control System** - Stepper motor drivers and motion control
 3. **Pneumatic Control System** - Solenoid valves and air pressure management
+
 ---
 
 ## Power Distribution Schematic
-
 ![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
 
+### Power Supply Units
 | Supply Unit | Input | Output | Current | Application |
 |:------------|:------|:-------|:--------|:------------|
 | **POWER_SUPPLY_1** | 240VAC / 1.3A | 24VDC | PLC rated | PLC and I/O modules |
 | **POWER_SUPPLY_2** | 240VAC / 8.5A | 24VDC | Motors rated | Motor drivers |
 | **DC/DC CONVERTER** | 24VDC | 12VDC | TBD | Solenoids/Accessories |
 
+### Terminal Blocks
 | Terminal Block | Voltage | Usage |
-|:--------------|:--------|:------|
+|:---------------|:--------|:------|
 | **TB_Logic** | +24V / 0V | PLC I/O Power Terminals |
 | **TB_Motor** | +24V / 0V | Motor Power Terminals |
 | **TB3** | +12V / 0V | Solenoids Flipper |
@@ -25,10 +26,7 @@ The electrical system consists of three main subsystems:
 ---
 
 ## Motor Control Schematic
-
 ![Motor Control Schematic](image/schematic_images/Motor_schematic.png)
-
-### System Components
 
 | Component | Description | Specifications |
 |:----------|:------------|:---------------|
@@ -38,12 +36,12 @@ The electrical system consists of three main subsystems:
 | **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
-|||
+### Motor Driver Reference
 | Motor Driver Pinout | Driver Config |
+|:--------------------|:--------------|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
 ### Signal Pins
-
 | Pin | Function | Description |
 |:----|:---------|:-----------|
 | **PUL+** | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
@@ -54,7 +52,6 @@ The electrical system consists of three main subsystems:
 | **ENA-** | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
 
 ### High Voltage Pins
-
 | Pin | Function | Description |
 |:----|:---------|:-----------|
 | **GND** | Power ground | Common ground reference for driver electronics |
@@ -66,7 +63,6 @@ The electrical system consists of three main subsystems:
 ---
 
 ## Pneumatic Control Schematic
-
 ![Pneumatic Control Schematic](image/schematic_images/Pneumatic_schematic.png)
 
 | Component | Description | Function |
