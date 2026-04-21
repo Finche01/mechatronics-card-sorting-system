@@ -6,7 +6,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🏭 3-Axis Gantry
+## 3-Axis Gantry
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
@@ -17,7 +17,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🎛️ PLC System
+## PLC System
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
@@ -30,7 +30,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 📷 Vision System
+## Vision System
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
@@ -43,33 +43,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🔌 Power / Electrical Components
-
-| Part | Qty | Price | Summary | Pic | Links |
-|:----:|:---:|:-----:|:-------:|:---:|:-----:|
-| **LRS-200-36 <br>Power Supply** | 1 | $37.53 | Mean Well Enclosed AC-DC Converter, 36V output, 90-132/180-264 VAC input, 240-370 VDC input | <img src="image/bom_images/component_009.png" width="160" alt="PS36"> | [Datasheet](https://www.digikey.ca/) · [Purchase](https://www.digikey.ca/en/products/detail/mean-well-usa-inc/LRS-200-36/7705024) |
-| **LRS-150F-24 <br>Power Supply** | 1 | $30.00 | Mean Well 24V 6.5A 156W, Single Output Switching Power Supply | <img src="image/bom_images/component_041.jpg" width="160" alt="PS24"> | [Datasheet](https://www.meanwell.com/) · [Purchase](https://www.amazon.ca/dp/B018RE4DQ2) |
-| **DIN Rail <br>Relay SPDT** | 5 | $27.00 | Phoenix Contact General Purpose SPDT, 6A 24V, DIN rail mount | <img src="image/bom_images/component_047.jpg" width="160" alt="Relay"> | [Datasheet](https://www.phoenixcontact.com/) · [Purchase](https://www.digikey.ca/en/products/detail/phoenix-contact/2900300/2742133) |
-| **Terminal Block** | 30 | $2.50 | Weidmüller Feed-Through, 12-30 AWG, DIN rail mount | <img src="image/bom_images/component_048.jpg" width="160" alt="Term"> | [Datasheet](https://www.weidmuller.com/) · [Purchase](https://www.digikey.ca/en/products/detail/weidm%C3%BCller/1020010000/412674) |
-| **Emergency Stop Button** | 1 | $14.99 | 660V 10A AC, Latching with weatherproof box, Twist-release, Instant power cutoff | <img src="image/bom_images/component_027.png" width="160" alt="EStop"> | [Purchase](https://www.amazon.ca/dp/B00NTT91Y0) |
-| **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
-
-**Electrical Subtotal: $215.98**
-
----
-
-## 🔍 Sensors & Switches
-
-| Part | Qty | Price | Summary | Pic | Links |
-|:----:|:---:|:-----:|:-------:|:---:|:-----:|
-| **Photoelectric Sensor** | 1 | $19.77 | E3Z-D61 Type, 12-24VDC NPN, Diffuse Reflection Infrared, 100mm detection range, 1.9m cable | <img src="image/bom_images/component_011.png" width="160" alt="Photo"> | [Datasheet (Similar)](https://www.amazon.ca/) · [Purchase](https://www.amazon.ca/dp/B083FQYLJD) |
-| **Limit Switch** | 1 | $3.33 | Omron Mechanical Limit Switch | <img src="image/bom_images/component_015.png" width="160" alt="Limit"> | [Datasheet](https://www.omron.com/) · [Purchase](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/V-156-1C25/5237043) |
-| **Optical Endstop** | 1 (6pcs) | $18.99 | Optical Limit Switch Module, 1m cable, Sensitive/quiet, High repeatability, No mechanical collision | <img src="image/bom_images/component_043.jpg" width="160" alt="Optical"> | [Purchase](https://www.amazon.ca/dp/B09BQ8SNMK) |
-
-**Sensors Subtotal: $42.09**
-
----
-## 💨 Pneumatics & Vacuum
+## Pneumatics & Vacuum Operation
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
@@ -89,6 +63,33 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
+## Power / Electrical Components
+
+| Part | Qty | Price | Summary | Pic | Links |
+|:----:|:---:|:-----:|:-------:|:---:|:-----:|
+| **LRS-200-36 <br>Power Supply** | 1 | $37.53 | Mean Well Enclosed AC-DC Converter, 36V output, 90-132/180-264 VAC input, 240-370 VDC input | <img src="image/bom_images/component_009.png" width="160" alt="PS36"> | [Datasheet](https://www.digikey.ca/) · [Purchase](https://www.digikey.ca/en/products/detail/mean-well-usa-inc/LRS-200-36/7705024) |
+| **LRS-150F-24 <br>Power Supply** | 1 | $30.00 | Mean Well 24V 6.5A 156W, Single Output Switching Power Supply | <img src="image/bom_images/component_041.jpg" width="160" alt="PS24"> | [Datasheet](https://www.meanwell.com/) · [Purchase](https://www.amazon.ca/dp/B018RE4DQ2) |
+| **DIN Rail <br>Relay SPDT** | 5 | $27.00 | Phoenix Contact General Purpose SPDT, 6A 24V, DIN rail mount | <img src="image/bom_images/component_047.jpg" width="160" alt="Relay"> | [Datasheet](https://www.phoenixcontact.com/) · [Purchase](https://www.digikey.ca/en/products/detail/phoenix-contact/2900300/2742133) |
+| **Terminal Block** | 30 | $2.50 | Weidmüller Feed-Through, 12-30 AWG, DIN rail mount | <img src="image/bom_images/component_048.jpg" width="160" alt="Term"> | [Datasheet](https://www.weidmuller.com/) · [Purchase](https://www.digikey.ca/en/products/detail/weidm%C3%BCller/1020010000/412674) |
+| **Emergency Stop Button** | 1 | $14.99 | 660V 10A AC, Latching with weatherproof box, Twist-release, Instant power cutoff | <img src="image/bom_images/component_027.png" width="160" alt="EStop"> | [Purchase](https://www.amazon.ca/dp/B00NTT91Y0) |
+| **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
+
+**Electrical Subtotal: $215.98**
+
+---
+
+## Sensors & Switches
+
+| Part | Qty | Price | Summary | Pic | Links |
+|:----:|:---:|:-----:|:-------:|:---:|:-----:|
+| **Photoelectric Sensor** | 1 | $19.77 | E3Z-D61 Type, 12-24VDC NPN, Diffuse Reflection Infrared, 100mm detection range, 1.9m cable | <img src="image/bom_images/component_011.png" width="160" alt="Photo"> | [Datasheet (Similar)](https://www.amazon.ca/) · [Purchase](https://www.amazon.ca/dp/B083FQYLJD) |
+| **Limit Switch** | 1 | $3.33 | Omron Mechanical Limit Switch | <img src="image/bom_images/component_015.png" width="160" alt="Limit"> | [Datasheet](https://www.omron.com/) · [Purchase](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/V-156-1C25/5237043) |
+| **Optical Endstop** | 1 (6pcs) | $18.99 | Optical Limit Switch Module, 1m cable, Sensitive/quiet, High repeatability, No mechanical collision | <img src="image/bom_images/component_043.jpg" width="160" alt="Optical"> | [Purchase](https://www.amazon.ca/dp/B09BQ8SNMK) |
+
+**Sensors Subtotal: $42.09**
+
+---
+
 ## Miscellaneous
 
 | Part | Qty | Price | Summary | Pic | Links |
@@ -104,7 +105,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Corner Bracket** | 1 | $22.00 | 20× Corner Brackets + 40× M5 T-Nuts + 40× M5×10mm Screws, Cast aluminum/galvanized steel | <img src="image/bom_images/component_035.jpg" width="160" alt="Bracket"> | [Purchase](https://www.amazon.ca/dp/B0855V2JV3) |
 | **Corner Bracket Cubes** | 2 | $36.99 | 8pcs Black 20×20×20mm cubes for 2020 series, 6mm slot | <img src="image/bom_images/component_040.jpg" width="160" alt="Cube"> | [Purchase](https://www.amazon.ca/dp/B08Z3GRQCW) |
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
-| **Misc Screws/Nuts/Washers** | 1 | $30.00 | Various sizes and types | - | - |
+| **Screws/Nuts/Washers** | 1 | $30.00 | Various sizes and types | - | - |
 ---
 
 ## 🔗 Quick Links
