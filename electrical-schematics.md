@@ -15,7 +15,7 @@ The electrical system consists of three main subsystems:
 
 ## Motor Control Schematic
 
-![Motor Control Schematic](image/electrical_images/Motor_schematic.png)
+![Motor Control Schematic](image/schematic_images/Motor_schematic.png)
 
 ### System Components
 
@@ -57,7 +57,7 @@ Each motor driver (MOTOR_DRIVER_X) has the following connections:
 
 ## Pneumatic Control Schematic
 
-![Pneumatic Control Schematic](image/electrical_images/Pneumatic_schematic.png)
+![Pneumatic Control Schematic](image/schematic_images/Pneumatic_schematic.png)
 
 ### Pneumatic System Components
 
@@ -95,7 +95,7 @@ Each solenoid valve (SOL1-SOL4) controls a pneumatic actuator:
 
 ## Power Distribution Schematic
 
-![Power Distribution Schematic](image/electrical_images/Power_schematic.png)
+![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
 
 ### Power Supply Architecture
 
