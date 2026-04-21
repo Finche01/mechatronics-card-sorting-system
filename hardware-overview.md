@@ -2,9 +2,8 @@
 
 ## 3-Axis Gantry
 
-| Assembled Configuration | Component Identification |
-|-------------------------|--------------------------|
-| ![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)<br><br>The complete assembly showing the XYZ gantry system with dual Y-axis motors and aluminum extrusion frame construction. | ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)<br><br>Exploded view highlighting key mechanical and electronic components. |
+|![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)|
+|![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)|
 
 
 **Key Components:**
