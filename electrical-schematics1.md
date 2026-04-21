@@ -47,10 +47,10 @@ The electrical system consists of three main subsystems:
 ### Motor Driver Pinout
 
 | | |
-|:---|:---|
+| ### Motor Driver Pinout| ### Driver Config|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
-#### Signal Pins
+### Signal Pins
 
 | Pin | Function | Description |
 |:----|:---------|:-----------|
@@ -61,7 +61,7 @@ The electrical system consists of three main subsystems:
 | **ENA+** | Enable signal positive | Motor enable control: LOW = motor energized and holding, HIGH = motor disabled/free |
 | **ENA-** | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
 
-#### High Voltage Pins
+### High Voltage Pins
 
 | Pin | Function | Description |
 |:----|:---------|:-----------|
