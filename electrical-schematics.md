@@ -45,17 +45,19 @@ The electrical system consists of three main subsystems:
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
 ### Motor Driver Pinout
-
-Each motor driver (MOTOR_DRIVER_X) has the following connections:
-
+![Motor Control Schematic](image/schematic_images/Motor_schematic.png)
+##Signal
 | Pin | Function | Description |
 |:----|:---------|:-----------|
-| STEP+ | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
-| STEP- | Step signal ground | Ground reference for step signal (differential pair with STEP+) |
+| PUL+ | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
+| PUL- | Step signal ground | Ground reference for step signal (differential pair with STEP+) |
 | DIR+ | Direction signal positive | Sets rotation direction: HIGH = clockwise, LOW = counter-clockwise |
 | DIR- | Direction signal ground | Ground reference for direction signal (differential pair with DIR+) |
 | ENA+ | Enable signal positive | Motor enable control: LOW = motor energized and holding, HIGH = motor disabled/free |
 | ENA- | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
+
+##High Voltage
+| Pin | Function | Description |
 | GND | Power ground | Common ground reference for driver electronics |
 | VEL+ | Velocity feedback | Optional encoder feedback signal (positive) for closed-loop control |
 | VEL- | Velocity feedback | Optional encoder feedback signal (ground/negative) |
