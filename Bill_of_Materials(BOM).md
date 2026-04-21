@@ -1,10 +1,5 @@
 # Bill of Materials (BOM)
 
-[← Back to Main README](README.md)
-
-Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
-
----
 
 ## 3-Axis Gantry
 
