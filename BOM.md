@@ -100,21 +100,7 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🔧 Pneumatic Fittings & Tubing
-
-| Part | Qty | Price | Summary | Pic | Links |
-|------|-----|-------|---------|-----|-------|
-| **Silicone Tubing** | 3m | $16.99 | 5mm ID × 7mm OD, Translucent, Silicone rubber, For water/air | ![Tube](https://m.media-amazon.com/images/I/51eRbBSsiHL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B01N918LAU) |
-| **Brass Round Tube** | 1 (3pcs) | $16.69 | 5mm OD, 0.5mm wall, 300mm length, Seamless | ![Brass](https://via.placeholder.com/100x100?text=Brass) | [Purchase](https://www.amazon.ca/dp/B07Z9BHSY8) |
-| **Bulkhead Fitting** | 1 (2pcs) | $17.99 | 1/4" NPT F to F, Brass, 1.5" length | ![Bulkhead](https://m.media-amazon.com/images/I/61tmhgVyGmL._AC_SL1200_.jpg) | [Purchase](https://www.amazon.ca/dp/B07D6NZLXF) |
-| **Brass Male Reducer** | 1 (5pcs) | $9.99 | 1/4" NPT M to M | ![Reducer](https://m.media-amazon.com/images/I/71gCMULcJjL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B0FB8CC665) |
-| **BSP to NPT Adapter** | 1 | $17.85 | 1/8" F BSP to 1/4" M NPT, Solid brass, CNC machined | ![Adapter](https://m.media-amazon.com/images/I/61oVFWoj8TL._AC_SL1100_.jpg) | [Purchase](https://www.amazon.ca/) |
-
-**Fittings Subtotal: $79.51**
-
----
-
-## 📦 Materials & Consumables
+## Miscellaneous
 
 | Part | Qty | Price | Summary | Pic | Links |
 |------|-----|-------|---------|-----|-------|
@@ -122,20 +108,14 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **PLA Filament** | 4 | $29.99 | Creality RFID, 1.75mm, 1kg/spool, High speed 30-600mm/s compatible | ![PLA](https://m.media-amazon.com/images/I/81e+PjKedmL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B0DHXDRZ74) |
 | **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | ![Cards](https://m.media-amazon.com/images/I/51AjnKXN-qL._AC_SL1200_.jpg) | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
 | **Super Glue CA** | 1 | $18.29 | Medium viscosity cyanoacrylate, 2610 PSI, 4.6oz, Multi-purpose | ![Glue](https://m.media-amazon.com/images/I/81KP61fKXxL._SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B0DMP3QWD3) |
-
-**Materials Subtotal: $238.25**
-
----
-
-## 🔌 Wire Management & Accessories
-
-| Part | Qty | Price | Summary | Pic | Links |
-|------|-----|-------|---------|-----|-------|
 | **35mm DIN Rail** | 1 | $14.95 | 7.5×35mm, 1 meter, Part# 58-415-0 | ![DIN](https://shop.sayal.com/cdn/shop/files/KER-101_540x.jpg) | [Purchase](https://shop.sayal.com/products/ker-101) |
 | **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | ![Duct](https://shop.sayal.com/cdn/shop/products/KFC-658_e99e1d2d-4144-4f4e-83fe-a8e09bec4f13_2048x2048.jpg) | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
-
-**Wire Management Subtotal: $129.90**
+| **Silicone Tubing** | 3m | $16.99 | 5mm ID × 7mm OD, Translucent, Silicone rubber, For water/air | ![Tube](https://m.media-amazon.com/images/I/51eRbBSsiHL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B01N918LAU) |
+| **Brass Round Tube** | 1 (3pcs) | $16.69 | 5mm OD, 0.5mm wall, 300mm length, Seamless | ![Brass](https://via.placeholder.com/100x100?text=Brass) | [Purchase](https://www.amazon.ca/dp/B07Z9BHSY8) |
+| **Bulkhead Fitting** | 1 (2pcs) | $17.99 | 1/4" NPT F to F, Brass, 1.5" length | ![Bulkhead](https://m.media-amazon.com/images/I/61tmhgVyGmL._AC_SL1200_.jpg) | [Purchase](https://www.amazon.ca/dp/B07D6NZLXF) |
+| **Brass Male Reducer** | 1 (5pcs) | $9.99 | 1/4" NPT M to M | ![Reducer](https://m.media-amazon.com/images/I/71gCMULcJjL._AC_SL1500_.jpg) | [Purchase](https://www.amazon.ca/dp/B0FB8CC665) |
+| **BSP to NPT Adapter** | 1 | $17.85 | 1/8" F BSP to 1/4" M NPT, Solid brass, CNC machined | ![Adapter](https://m.media-amazon.com/images/I/61oVFWoj8TL._AC_SL1100_.jpg) | [Purchase](https://www.amazon.ca/) |
 ---
 
 ## 🔗 Quick Links
