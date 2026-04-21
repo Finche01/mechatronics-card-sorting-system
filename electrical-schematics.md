@@ -48,18 +48,19 @@ The electrical system consists of three main subsystems:
 
 Each motor driver (MOTOR_DRIVER_X) has the following connections:
 
-| Pin | Function | Connection |
+| Pin | Function | Description |
 |:----|:---------|:-----------|
-| STEP+ | Step signal positive | From CS-H62 controller |
-| STEP- | Step signal ground | Ground reference |
-| DIR+ | Direction signal positive | From CS-H62 controller |
-| DIR- | Direction signal ground | Ground reference |
-| ENA+ | Enable signal positive | From CS-H62 controller |
-| ENA- | Enable signal ground | Ground reference |
-| GND | Power ground | Common ground |
-| VEL+ | Velocity feedback | Optional encoder |
-| A+ / A- | Motor coil A | Stepper motor phase A |
-| B+ / B- | Motor coil B | Stepper motor phase B |
+| STEP+ | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
+| STEP- | Step signal ground | Ground reference for step signal (differential pair with STEP+) |
+| DIR+ | Direction signal positive | Sets rotation direction: HIGH = clockwise, LOW = counter-clockwise |
+| DIR- | Direction signal ground | Ground reference for direction signal (differential pair with DIR+) |
+| ENA+ | Enable signal positive | Motor enable control: LOW = motor energized and holding, HIGH = motor disabled/free |
+| ENA- | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
+| GND | Power ground | Common ground reference for driver electronics |
+| VEL+ | Velocity feedback | Optional encoder feedback signal (positive) for closed-loop control |
+| VEL- | Velocity feedback | Optional encoder feedback signal (ground/negative) |
+| A+ / A- | Motor coil A | Phase A winding connections to stepper motor (bipolar) |
+| B+ / B- | Motor coil B | Phase B winding connections to stepper motor (bipolar) |
 
 ### Control Signal Flow
 
