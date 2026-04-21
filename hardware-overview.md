@@ -2,10 +2,10 @@
 
 ## 3-Axis Gantry
 
-| ![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)<br> | ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)<br>|
+![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)<br><br> ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)<br>
 
 
-**Key Components:**
+#Key Components
 
 | Component | Description | Function |
 |-----------|-------------|----------|
@@ -25,8 +25,8 @@
 
 | Configuration | Image | Description |
 |---------------|-------|-------------|
-| **1. Folding Frame Assembly**<br>(Transportation Mode) | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) | Two-tier enclosure design with collapsible upper section for compact storage or transport. The folding mechanism allows the top frame to nest with the base. |
-| **2. Vertical Frame Assembly**<br>(Operational Mode) | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png) | Standard vertical enclosure configuration providing full working envelope access while protecting the motion platform. |
+| **Folded**<br>(Transportation Mode) | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) 
+| **Vertical**<br>(Operational Mode) | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png)
 
 ---
 
