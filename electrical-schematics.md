@@ -85,32 +85,12 @@ The electrical system consists of three main subsystems:
 
 | Component | Description | Function |
 |:----------|:------------|:---------|
-| **TB_LOGIC** | Logic power input | 24V DC for solenoid control |
-| **TB_L12** | 12V power terminal | Powers tilt motor |
-| **CS-H610** | Pneumatic controller | Manages solenoid valves |
+| **C0-16TD1** | I/O Combo module | 24V DC for solenoid control |
+| **C2-14DR** | I/O Combo module | Powers tilt motor |
 | **SOL1-4** | 5/2 solenoid valves | Double-acting pneumatic control |
 | **PRESSURE_SWITCH** | Air pressure sensor | Monitors system pressure |
 | **COMP_PROTECT_SW** | Compressor protection switch | Overload protection |
-| **PLC_SW** | PLC control switch | Manual/Auto mode selection |
-| **TILT_MOTOR** | Tilt mechanism motor | 24V DC motor |
-
-### Solenoid Valve Configuration
-
-Each solenoid valve (SOL1-SOL4) controls a pneumatic actuator:
-
-| Valve | Port A | Port B | Function |
-|:------|:-------|:-------|:---------|
-| **SOL1** | A+ | B+ | Actuator 1 extend/retract |
-| **SOL2** | A+ | B+ | Actuator 2 extend/retract |
-| **SOL3** | A+ | B+ | Actuator 3 extend/retract |
-| **SOL4** | A+ | B+ | Vacuum/pressure control |
-
-### Pneumatic Signal Flow
-
-1. **Air Supply**: Compressed air at regulated pressure (typically 6 bar / 87 PSI)
-2. **Pressure Monitoring**: PRESSURE_SWITCH monitors system pressure
-3. **Valve Control**: CS-H610 activates solenoids based on PLC commands
-4. **Actuator Control**: 5/2 valves direct air to extend or retract cylinders
-5. **Safety**: COMP_PROTECT_SW protects compressor from overload
+| **FLIPPER_MOTOR** | Tilt mechanism motor | 24V DC motor |
+| **lED STRIP** | | |
 
 ---
