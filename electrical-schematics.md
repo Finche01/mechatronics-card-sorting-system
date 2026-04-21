@@ -1,15 +1,32 @@
 # Electrical Schematics
 
-This document provides detailed electrical schematics for the 3-axis motion platform, including motor control, pneumatic systems, and power distribution.
-
----
-
 ## System Architecture Overview
 
 The electrical system consists of three main subsystems:
-1. **Motor Control System** - Stepper motor drivers and motion control
-2. **Pneumatic Control System** - Solenoid valves and air pressure management
-3. **Power Distribution System** - Multi-voltage power supply and protection circuits
+1. **Power Distribution System** - Multi-voltage power supply and protection circuits
+2. **Motor Control System** - Stepper motor drivers and motion control
+3. **Pneumatic Control System** - Solenoid valves and air pressure management
+---
+
+## Power Distribution Schematic
+
+![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
+
+### Power Supply Architecture
+
+| Supply Unit | Input | Output | Current | Application |
+|:------------|:------|:-------|:--------|:------------|
+| **POWER_SUPPLY_1** | 240VAC / 1.3A | 24VDC | PLC rated | PLC and I/O modules |
+| **POWER_SUPPLY_2** | 240VAC / 8.5A | 24VDC | Motors rated | Motor drivers |
+| **DC/DC CONVERTER** | 24VDC | 12VDC | TBD | Solenoids/Accessories |
+
+### Terminal Block Assignments
+
+| Terminal Block | Voltage | Usage |
+|:--------------|:--------|:------|
+| **TB_Logic** | +24V / 0V | PLC I/O Power Terminals |
+| **TB_Motor** | +24V / 0V | Motor Power Terminals |
+| **TB3** | +12V / 0V | Solenoids Flipper |
 
 ---
 
@@ -21,12 +38,11 @@ The electrical system consists of three main subsystems:
 
 | Component | Description | Specifications |
 |:----------|:------------|:---------------|
-| **TB_LOGIC** | Logic power input terminal | 5V DC |
-| **CS-H62** | Stepper motor driver (x4) | Microstep controller |
-| **MOTOR_DRIVER_1~4** | Motor driver modules | STEP/DIR/ENABLE control |
-| **TB_MOTOR** | Motor power terminal | 24V DC |
+| **C2-14DR** | I/O module | Relay |
+| **Motors** | Motors for each axis |  |
+| **Motor driver** | Stepper motor driver (x4) | translates electrical pulse into motor actuation |
+| **Limit switch** | feedback sensor to signal the limits of each axis | two switches per axis |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
-| **SW (SWITCH1)** | I/O control switch | Digital input |
 
 ### Motor Driver Pinout
 
@@ -90,27 +106,5 @@ Each solenoid valve (SOL1-SOL4) controls a pneumatic actuator:
 3. **Valve Control**: CS-H610 activates solenoids based on PLC commands
 4. **Actuator Control**: 5/2 valves direct air to extend or retract cylinders
 5. **Safety**: COMP_PROTECT_SW protects compressor from overload
-
----
-
-## Power Distribution Schematic
-
-![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
-
-### Power Supply Architecture
-
-| Supply Unit | Input | Output | Current | Application |
-|:------------|:------|:-------|:--------|:------------|
-| **POWER_SUPPLY_1** | 240VAC / 1.3A | 24VDC | PLC rated | PLC and I/O modules |
-| **POWER_SUPPLY_2** | 240VAC / 8.5A | 24VDC | Motors rated | Motor drivers |
-| **DC/DC CONVERTER** | 24VDC | 12VDC | TBD | Solenoids/Accessories |
-
-### Terminal Block Assignments
-
-| Terminal Block | Voltage | Usage |
-|:--------------|:--------|:------|
-| **TB_Logic** | +24V / 0V | PLC I/O Power Terminals |
-| **TB_Motor** | +24V / 0V | Motor Power Terminals |
-| **TB3** | +12V / 0V | Solenoids Flipper |
 
 ---
