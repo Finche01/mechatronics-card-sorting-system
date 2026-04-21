@@ -12,6 +12,8 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **CNC Machine** | 1 | $469.99 | 3-Axis Wood Engraving Milling Machine, 300W Spindle, 15.75" x 15.75" x 2.36" Working Area, Aluminum Alloy Structure, Offline Controller included | <img src="image/bom_images/component_001.png" width="160" alt="CNC"> | [Purchase](https://www.vevor.ca/) |
 | **Stepper Driver** | 4 | $29.99 | Digital Microstep Driver, 2-Phase 5.6A for NEMA23/34, 24-50V supply, 8-level adjustable current 1.0-5.6A, Optical isolation, 200kHz pulse response | <img src="image/bom_images/component_026.jpg" width="160" alt="Driver"> | [Datasheet](https://www.omc-stepperonline.com/download/DM556T.pdf) · [Purchase](https://www.amazon.ca/dp/B0CS3XBN2X) |
+| **Aluminum Profile** | 1 (2pcs) | $47.99 | 2040 Profile (20×40mm), 800mm length, 6063 Aluminum anodized black, 6.2mm slot | <img src="image/bom_images/component_036.jpg" width="160" alt="VSlot"> | [Purchase](https://www.amazon.ca/dp/B0BZ54QQPG) |
+| **Cable Drag Chain** | 2 | $13.99 | R28/38, 15×30mm inner, 1m length, Semi-enclosed with connectors, Black plastic | <img src="image/bom_images/component_038.png" width="160" alt="Chain"> | [Purchase](https://www.amazon.ca/dp/B07QZR6GMT) |
 
 ---
 
@@ -87,22 +89,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 ---
 
-## 🔩 Mechanical Components
-
-| Part | Qty | Price | Summary | Pic | Links |
-|:----:|:---:|:-----:|:-------:|:---:|:-----:|
-| **Aluminum Profile** | 1 (2pcs) | $47.99 | 2040 Profile (20×40mm), 800mm length, 6063 Aluminum anodized black, 6.2mm slot | <img src="image/bom_images/component_036.jpg" width="160" alt="VSlot"> | [Purchase](https://www.amazon.ca/dp/B0BZ54QQPG) |
-| **Corner Bracket** | 1 | $22.00 | 20× Corner Brackets + 40× M5 T-Nuts + 40× M5×10mm Screws, Cast aluminum/galvanized steel | <img src="image/bom_images/component_035.jpg" width="160" alt="Bracket"> | [Purchase](https://www.amazon.ca/dp/B0855V2JV3) |
-| **Corner Bracket Cubes** | 2 | $36.99 | 8pcs Black 20×20×20mm cubes for 2020 series, 6mm slot | <img src="image/bom_images/component_040.jpg" width="160" alt="Cube"> | [Purchase](https://www.amazon.ca/dp/B08Z3GRQCW) |
-| **Cable Drag Chain** | 2 | $13.99 | R28/38, 15×30mm inner, 1m length, Semi-enclosed with connectors, Black plastic | <img src="image/bom_images/component_038.png" width="160" alt="Chain"> | [Purchase](https://www.amazon.ca/dp/B07QZR6GMT) |
-| **Stainless Steel Rods** | 1 | $9.29 | 304 SS, 3mm diameter, 200mm length, Silver | <img src="image/bom_images/component_028.png" width="160" alt="Rod"> | [Purchase](https://www.amazon.ca/dp/B0CD2GZ97T) |
-| **Flanged Couplers 3mm** | 1 | $11.99 | 3mm ID, High hardness metal, With L-wrench and locking screws | <img src="image/bom_images/component_029.png" width="160" alt="Coupler"> | [Purchase](https://www.amazon.ca/dp/B0DZXQ9RZH) |
-| **Compression Springs** | 1 | $19.99 | 300pcs, 30 sizes, Stainless steel, Good fatigue strength | <img src="image/bom_images/component_021.png" width="160" alt="Springs"> | [Purchase](https://www.amazon.ca/) |
-| **Magnets** | 1 (100pcs) | $16.99 | 6×3mm Neodymium, Brushed nickel finish | <img src="image/bom_images/component_031.jpg" width="160" alt="Magnets"> | [Purchase](https://www.amazon.ca/dp/B07WCN5FGD) |
-| **MDF Board 1/2"** | 1 | $45.00 | 4ft × 8ft × 1/2" MDF Panel | <img src="image/bom_images/component_044.png" width="160" alt="MDF"> | [Purchase](https://www.rona.ca/en/product/1-2-in-x-49-in-x-97-in-mdf-panel-bm003054-49585308) |
-
----
-
 ## Miscellaneous
 
 | Part | Qty | Price | Summary | Pic | Links |
@@ -110,10 +96,15 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | <img src="image/bom_images/component_019.png" width="160" alt="Cards"> | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
 | **PLA Filament** | 4 | $29.99 | Creality RFID, 1.75mm, 1kg/spool, High speed 30-600mm/s compatible | <img src="image/bom_images/component_024.jpg" width="160" alt="PLA"> | [Purchase](https://www.amazon.ca/dp/B0DHXDRZ74) |
 | **Super Glue** | 1 | $18.29 | Medium viscosity cyanoacrylate, 2610 PSI, 4.6oz, Multi-purpose | <img src="image/bom_images/component_034.jpg" width="160" alt="Glue"> | [Purchase](https://www.amazon.ca/dp/B0DMP3QWD3) |
+| **MDF Board 1/2"** | 1 | $45.00 | 4ft × 8ft × 1/2" MDF Panel | <img src="image/bom_images/component_044.png" width="160" alt="MDF"> | [Purchase](https://www.rona.ca/en/product/1-2-in-x-49-in-x-97-in-mdf-panel-bm003054-49585308) |
+| **Magnets** | 1 (100pcs) | $16.99 | 6×3mm Neodymium, Brushed nickel finish | <img src="image/bom_images/component_031.jpg" width="160" alt="Magnets"> | [Purchase](https://www.amazon.ca/dp/B07WCN5FGD) |
+| **Stainless Steel Rods** | 1 | $9.29 | 304 SS, 3mm diameter, 200mm length, Silver | <img src="image/bom_images/component_028.png" width="160" alt="Rod"> | [Purchase](https://www.amazon.ca/dp/B0CD2GZ97T) |
+| **Flanged Couplers 3mm** | 1 | $11.99 | 3mm ID, High hardness metal, With L-wrench and locking screws | <img src="image/bom_images/component_029.png" width="160" alt="Coupler"> | [Purchase](https://www.amazon.ca/dp/B0DZXQ9RZH) |
+| **Compression Springs** | 1 | $19.99 | 300pcs, 30 sizes, Stainless steel, Good fatigue strength | <img src="image/bom_images/component_021.png" width="160" alt="Springs"> | [Purchase](https://www.amazon.ca/) |
+| **Corner Bracket** | 1 | $22.00 | 20× Corner Brackets + 40× M5 T-Nuts + 40× M5×10mm Screws, Cast aluminum/galvanized steel | <img src="image/bom_images/component_035.jpg" width="160" alt="Bracket"> | [Purchase](https://www.amazon.ca/dp/B0855V2JV3) |
+| **Corner Bracket Cubes** | 2 | $36.99 | 8pcs Black 20×20×20mm cubes for 2020 series, 6mm slot | <img src="image/bom_images/component_040.jpg" width="160" alt="Cube"> | [Purchase](https://www.amazon.ca/dp/B08Z3GRQCW) |
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
-| **Wood Screws #6×1/2"** | 1 (100pcs) | $10.59 | 304 SS Flat Head Phillips, Self-tapping | <img src="image/bom_images/component_033.png" width="160" alt="Screws"> | [Purchase](https://www.amazon.ca/dp/B0CWVHV9VJ) |
-| **Misc Screws/Nuts/Washers** | 1 | $20.00 | Various sizes and types | - | - |
-
+| **Misc Screws/Nuts/Washers** | 1 | $30.00 | Various sizes and types | - | - |
 ---
 
 ## 🔗 Quick Links
