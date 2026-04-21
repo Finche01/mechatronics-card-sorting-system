@@ -24,21 +24,6 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **I/O Combo Module** | 1 | $89.10 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt 24VDC sourcing 0.1A/point, Removable terminal | <img src="image/bom_images/component_004.png" width="160" alt="MOD"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14d2) |
 | **I/O Combo Module** | 1 | $102.60 | Discrete combo: Input 8-pt 24VDC sink/source, Output 6-pt Relay 1A/point (6-240VAC/6-27VDC), Removable terminal | <img src="image/bom_images/component_005.png" width="160" alt="MOD"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpu_option_slot_modules/c2-14dr) |
 | **Output Module** | 1 | $94.50 | 16-pt discrete output, 5-27VDC sinking, 2 isolated commons, 8 pts/common, 0.1A/point | <img src="image/bom_images/component_008.png" width="160" alt="OUT"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/stackable_i-z-o_modules/c0-16td1) |
----
-
-## 💨 Pneumatics & Vacuum
-
-| Part | Qty | Price | Summary | Pic | Links |
-|:----:|:---:|:-----:|:-------:|:---:|:-----:|
-| **Diaphragm <br>Vacuum Pump** | 1 | $33.52 | 24V 0.4-1L/min Miniature Diaphragm Pump for Air/Liquid, Compact design for vacuum generation | <img src="image/bom_images/component_010.png" width="160" alt="Pump"> | [Purchase](https://www.amazon.ca/dp/B07T5BXDHP) |
-| **ZSE30 Vacuum Pressure Switch** | 1 | $43.99 | Digital Pressure Switch, 12-24VDC, 0 to -101kPa range, 1 PNP output, G1/8 port | <img src="image/bom_images/component_030.jpg" width="160" alt="Switch"> | [Datasheet](https://www.amazon.ca/dp/B0CNDFQQ4J) · [Purchase](https://www.amazon.ca/dp/B0CNDFQQ4J) |
-| **Solenoid Valve <br>2-Way NC** | 4 | $22.99 | 12V DC 1/4" Aluminum, 2-Way Normally Closed, Quick switching, Excellent sealing for water/gas | <img src="image/bom_images/component_022.png" width="160" alt="Valve"> | [Purchase](https://www.amazon.ca/dp/B0D7SZ6BB6) |
-| **Suction Cup 20mm** | 1 (4pcs) | $15.39 | uxcell Bellows Suction Cup, 20mm Diameter × M5 Joint, Silicone, Clear White | <img src="image/bom_images/component_016.png" width="160" alt="Cup20"> | [Purchase](https://www.amazon.ca/dp/B07MB8NHSH) |
-| **Suction Cup 30mm** | 1 (4pcs) | $16.99 | uxcell Bellows Suction Cup, 30mm Diameter × M5 Joint, Silicone, Clear White | <img src="image/bom_images/component_017.png" width="160" alt="Cup30"> | [Purchase](https://www.amazon.ca/dp/B07MHGDXKD) |
-| **One-Way Check Valve** | 1 (5pcs) | $13.09 | 1/8" (3mm) PP Non-Return Check Valve, 30.6×14.9mm, For water/fuel/oil/air | <img src="image/bom_images/component_039.jpg" width="160" alt="Check"> | [Purchase](https://www.amazon.ca/dp/B0DNP2Z4PC) |
-| **DC Gear Motor** | 1 | $11.59 | DMiotech 6V 30RPM, Rated Torque 12, 10mm output shaft, Speed reduction motor | <img src="image/bom_images/component_014.png" width="160" alt="Motor"> | [Purchase](https://www.amazon.ca/) |
-
-**Pneumatics Subtotal: $226.52**
 
 ---
 
@@ -80,23 +65,39 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 **Sensors Subtotal: $42.09**
 
 ---
+## 💨 Pneumatics & Vacuum
+
+| Part | Qty | Price | Summary | Pic | Links |
+|:----:|:---:|:-----:|:-------:|:---:|:-----:|
+| **Diaphragm <br>Vacuum Pump** | 1 | $33.52 | 24V 0.4-1L/min Miniature Diaphragm Pump for Air/Liquid, Compact design for vacuum generation | <img src="image/bom_images/component_010.png" width="160" alt="Pump"> | [Purchase](https://www.amazon.ca/dp/B07T5BXDHP) |
+| **ZSE30 Vacuum Pressure Switch** | 1 | $43.99 | Digital Pressure Switch, 12-24VDC, 0 to -101kPa range, 1 PNP output, G1/8 port | <img src="image/bom_images/component_030.jpg" width="160" alt="Switch"> | [Datasheet](https://www.amazon.ca/dp/B0CNDFQQ4J) · [Purchase](https://www.amazon.ca/dp/B0CNDFQQ4J) |
+| **Solenoid Valve <br>2-Way NC** | 4 | $22.99 | 12V DC 1/4" Aluminum, 2-Way Normally Closed, Quick switching, Excellent sealing for water/gas | <img src="image/bom_images/component_022.png" width="160" alt="Valve"> | [Purchase](https://www.amazon.ca/dp/B0D7SZ6BB6) |
+| **Suction Cup 20mm** | 1 (4pcs) | $15.39 | uxcell Bellows Suction Cup, 20mm Diameter × M5 Joint, Silicone, Clear White | <img src="image/bom_images/component_016.png" width="160" alt="Cup20"> | [Purchase](https://www.amazon.ca/dp/B07MB8NHSH) |
+| **Suction Cup 30mm** | 1 (4pcs) | $16.99 | uxcell Bellows Suction Cup, 30mm Diameter × M5 Joint, Silicone, Clear White | <img src="image/bom_images/component_017.png" width="160" alt="Cup30"> | [Purchase](https://www.amazon.ca/dp/B07MHGDXKD) |
+| **One-Way Check Valve** | 1 (5pcs) | $13.09 | 1/8" (3mm) PP Non-Return Check Valve, 30.6×14.9mm, For water/fuel/oil/air | <img src="image/bom_images/component_039.jpg" width="160" alt="Check"> | [Purchase](https://www.amazon.ca/dp/B0DNP2Z4PC) |
+| **DC Gear Motor** | 1 | $11.59 | DMiotech 6V 30RPM, Rated Torque 12, 10mm output shaft, Speed reduction motor | <img src="image/bom_images/component_014.png" width="160" alt="Motor"> | [Purchase](https://www.amazon.ca/) |
+| **Silicone Tubing** | 3m | $16.99 | 5mm ID × 7mm OD, Translucent, Silicone rubber, For water/air | <img src="image/bom_images/component_020.png" width="160" alt="Tube"> | [Purchase](https://www.amazon.ca/dp/B01N918LAU) |
+| **Brass Tube** | 1 (3pcs) | $16.69 | 5mm OD, 0.5mm wall, 300mm length, Seamless | <img src="image/bom_images/component_013.png" width="160" alt="Brass"> | [Purchase](https://www.amazon.ca/dp/B07Z9BHSY8) |
+| **Bulkhead Fitting** | 1 (2pcs) | $17.99 | 1/4" NPT F to F, Brass, 1.5" length | <img src="image/bom_images/component_032.jpg" width="160" alt="Bulkhead"> | [Purchase](https://www.amazon.ca/dp/B07D6NZLXF) |
+| **Brass Male Reducer** | 1 (5pcs) | $9.99 | 1/4" NPT M to M | <img src="image/bom_images/component_042.jpg" width="160" alt="Reducer"> | [Purchase](https://www.amazon.ca/dp/B0FB8CC665) |
+| **BSP to NPT Adapter** | 1 | $17.85 | 1/8" F BSP to 1/4" M NPT, Solid brass, CNC machined | <img src="image/bom_images/component_037.jpg" width="160" alt="Adapter"> | [Purchase](https://www.amazon.ca/) |
+**Pneumatics Subtotal: $226.52**
+
+---
 
 ## 🔩 Mechanical Components
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Aluminum Profile** | 1 (2pcs) | $47.99 | 2040 Profile (20×40mm), 800mm length, 6063 Aluminum anodized black, 6.2mm slot | <img src="image/bom_images/component_036.jpg" width="160" alt="VSlot"> | [Purchase](https://www.amazon.ca/dp/B0BZ54QQPG) |
-| **Corner Bracket ** | 1 | $22.00 | 20× Corner Brackets + 40× M5 T-Nuts + 40× M5×10mm Screws, Cast aluminum/galvanized steel | <img src="image/bom_images/component_035.jpg" width="160" alt="Bracket"> | [Purchase](https://www.amazon.ca/dp/B0855V2JV3) |
+| **Corner Bracket** | 1 | $22.00 | 20× Corner Brackets + 40× M5 T-Nuts + 40× M5×10mm Screws, Cast aluminum/galvanized steel | <img src="image/bom_images/component_035.jpg" width="160" alt="Bracket"> | [Purchase](https://www.amazon.ca/dp/B0855V2JV3) |
 | **Corner Bracket Cubes** | 2 | $36.99 | 8pcs Black 20×20×20mm cubes for 2020 series, 6mm slot | <img src="image/bom_images/component_040.jpg" width="160" alt="Cube"> | [Purchase](https://www.amazon.ca/dp/B08Z3GRQCW) |
 | **Cable Drag Chain** | 2 | $13.99 | R28/38, 15×30mm inner, 1m length, Semi-enclosed with connectors, Black plastic | <img src="image/bom_images/component_038.png" width="160" alt="Chain"> | [Purchase](https://www.amazon.ca/dp/B07QZR6GMT) |
 | **Stainless Steel Rods** | 1 | $9.29 | 304 SS, 3mm diameter, 200mm length, Silver | <img src="image/bom_images/component_028.png" width="160" alt="Rod"> | [Purchase](https://www.amazon.ca/dp/B0CD2GZ97T) |
 | **Flanged Couplers 3mm** | 1 | $11.99 | 3mm ID, High hardness metal, With L-wrench and locking screws | <img src="image/bom_images/component_029.png" width="160" alt="Coupler"> | [Purchase](https://www.amazon.ca/dp/B0DZXQ9RZH) |
 | **Compression Springs** | 1 | $19.99 | 300pcs, 30 sizes, Stainless steel, Good fatigue strength | <img src="image/bom_images/component_021.png" width="160" alt="Springs"> | [Purchase](https://www.amazon.ca/) |
 | **Magnets** | 1 (100pcs) | $16.99 | 6×3mm Neodymium, Brushed nickel finish | <img src="image/bom_images/component_031.jpg" width="160" alt="Magnets"> | [Purchase](https://www.amazon.ca/dp/B07WCN5FGD) |
-| **Wood Screws #6×1/2"** | 1 (100pcs) | $10.59 | 304 SS Flat Head Phillips, Self-tapping | <img src="image/bom_images/component_033.png" width="160" alt="Screws"> | [Purchase](https://www.amazon.ca/dp/B0CWVHV9VJ) |
-| **Misc Screws/Nuts/Washers** | 1 | $20.00 | Various sizes and types | - | - |
-
-**Hardware Subtotal: $230.71**
+| **MDF Board 1/2"** | 1 | $45.00 | 4ft × 8ft × 1/2" MDF Panel | <img src="image/bom_images/component_044.png" width="160" alt="MDF"> | [Purchase](https://www.rona.ca/en/product/1-2-in-x-49-in-x-97-in-mdf-panel-bm003054-49585308) |
 
 ---
 
@@ -104,18 +105,16 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 
 | Part | Qty | Price | Summary | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
+| **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | <img src="image/bom_images/component_019.png" width="160" alt="Cards"> | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
 | **MDF Board 1/2"** | 1 | $45.00 | 4ft × 8ft × 1/2" MDF Panel | <img src="image/bom_images/component_044.png" width="160" alt="MDF"> | [Purchase](https://www.rona.ca/en/product/1-2-in-x-49-in-x-97-in-mdf-panel-bm003054-49585308) |
 | **PLA Filament** | 4 | $29.99 | Creality RFID, 1.75mm, 1kg/spool, High speed 30-600mm/s compatible | <img src="image/bom_images/component_024.jpg" width="160" alt="PLA"> | [Purchase](https://www.amazon.ca/dp/B0DHXDRZ74) |
-| **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | <img src="image/bom_images/component_019.png" width="160" alt="Cards"> | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
 | **Super Glue** | 1 | $18.29 | Medium viscosity cyanoacrylate, 2610 PSI, 4.6oz, Multi-purpose | <img src="image/bom_images/component_034.jpg" width="160" alt="Glue"> | [Purchase](https://www.amazon.ca/dp/B0DMP3QWD3) |
 | **35mm DIN Rail** | 1 | $14.95 | 7.5×35mm, 1 meter, Part# 58-415-0 | <img src="image/bom_images/component_046.png" width="160" alt="DIN"> | [Purchase](https://shop.sayal.com/products/ker-101) |
 | **Wire Duct 35×25mm** | 1 | $14.95 | HVDR2540F-2M, Slotted 1"×1.5"×78", 4mm slot, Grey | <img src="image/bom_images/component_045.jpg" width="160" alt="Duct"> | [Purchase](https://shop.sayal.com/products/kfc-2418b) |
 | **Wire Miscellaneous** | 1 | $100.00 | Power and signal wire, various gauges | - | - |
-| **Silicone Tubing** | 3m | $16.99 | 5mm ID × 7mm OD, Translucent, Silicone rubber, For water/air | <img src="image/bom_images/component_020.png" width="160" alt="Tube"> | [Purchase](https://www.amazon.ca/dp/B01N918LAU) |
-| **Brass Tube** | 1 (3pcs) | $16.69 | 5mm OD, 0.5mm wall, 300mm length, Seamless | <img src="image/bom_images/component_013.png" width="160" alt="Brass"> | [Purchase](https://www.amazon.ca/dp/B07Z9BHSY8) |
-| **Bulkhead Fitting** | 1 (2pcs) | $17.99 | 1/4" NPT F to F, Brass, 1.5" length | <img src="image/bom_images/component_032.jpg" width="160" alt="Bulkhead"> | [Purchase](https://www.amazon.ca/dp/B07D6NZLXF) |
-| **Brass Male Reducer** | 1 (5pcs) | $9.99 | 1/4" NPT M to M | <img src="image/bom_images/component_042.jpg" width="160" alt="Reducer"> | [Purchase](https://www.amazon.ca/dp/B0FB8CC665) |
-| **BSP to NPT Adapter** | 1 | $17.85 | 1/8" F BSP to 1/4" M NPT, Solid brass, CNC machined | <img src="image/bom_images/component_037.jpg" width="160" alt="Adapter"> | [Purchase](https://www.amazon.ca/) |
+| **Wood Screws #6×1/2"** | 1 (100pcs) | $10.59 | 304 SS Flat Head Phillips, Self-tapping | <img src="image/bom_images/component_033.png" width="160" alt="Screws"> | [Purchase](https://www.amazon.ca/dp/B0CWVHV9VJ) |
+| **Misc Screws/Nuts/Washers** | 1 | $20.00 | Various sizes and types | - | - |
+
 ---
 
 ## 🔗 Quick Links
