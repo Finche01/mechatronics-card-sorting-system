@@ -101,6 +101,19 @@ Complete parts list for the Mechatronics Card Sorting System - **Project 2221**
 | **Screws/Nuts/Washers** | 1 | $30.00 | Various sizes and types | - | - |
 ---
 
+## Cost Summary
+
+| Section | Subtotal |
+|:--------|:--------:|
+| **3-Axis Gantry** | $665.92 |
+| **PLC System** | $582.05 |
+| **Vision System** | $79.83 |
+| **Pneumatics & Vacuum Operation** | $306.04 |
+| **Power / Electrical Components** | $307.47 |
+| **Sensors & Switches** | $42.09 |
+| **Miscellaneous** | $492.47 |
+| **GRAND TOTAL** | **$2475.87** |
+
 ## 🔗 Quick Links
 
 - [← Back to Main README](README.md)
