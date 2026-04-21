@@ -45,7 +45,8 @@ The electrical system consists of three main subsystems:
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
 ### Motor Driver Pinout
-![Motor Control Schematic](image/schematic_images/Motor_driver.png)
+|![Motor Control Schematic](image/schematic_images/Motor_driver.png)| ![Motor Control Schematic](image/schematic_images/Motor_driver_configuration_switch.png)|
+
 ##Signal
 | Pin | Function | Description |
 |:----|:---------|:-----------|
@@ -64,7 +65,6 @@ The electrical system consists of three main subsystems:
 | A+ / A- | Motor coil A | Phase A winding connections to stepper motor (bipolar) |
 | B+ / B- | Motor coil B | Phase B winding connections to stepper motor (bipolar) |
 
-![Motor Control Schematic](image/schematic_images/Motor_driver_configuration_switch.png)
 
 
 ### Control Signal Flow
