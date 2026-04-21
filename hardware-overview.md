@@ -25,8 +25,8 @@
 
 | Configuration | Image | Description |
 |---------------|-------|-------------|
-| **Folded**<br>(Transportation Mode) | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) 
-| **Vertical**<br>(Operational Mode) | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png)
+| **1. Folding Frame Assembly**<br>(Transportation Mode) | ![Enclosure - Folding Configuration](image/hardware_images/Assembly_fold.png) | Two-tier collapsible enclosure designed for compact storage or transport. The folding mechanism allows the top frame to be mounted on the base frame with t-nut screws. |
+| **2. Vertical Frame Assembly**<br>(Operational Mode) | ![Enclosure - Vertical Configuration](image/hardware_images/Assembly_vertical.png) | Standard vertical enclosure configuration providing full working structure with easy of access to control panel. |
 
 ---
 
