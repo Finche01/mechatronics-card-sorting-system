@@ -11,9 +11,9 @@
 
 ---
 ### Deployment Environment
-
 | ![SCADA](image/scada_diagram/Docker_containers.png) |
 |----------------------------------------------------|
+
 | Container                              | Role                | Port |
 |----------------------------------------|---------------------|------|
 | **Node-RED (192.168.1.20)**            | Data Hub / HMI      | 1880 |
@@ -26,10 +26,12 @@
 
 ---
 ### VisionSystem.py (OpenCV)
+|![SCADA](image/scada_diagram/template_examples.png)|
+|----------------------------------------------------|
 - An OpenCV python script that is used for card identification logic.
 - It Captures images from a USB camera when triggered  
 - Processes the image (grayscale, filtering, template matching)  
 - Identifies the rank and suit from a predefined template set  
 - Publishes the result to the MQTT broker  
-![SCADA](image/scada_diagram/template_examples.png)
+
 ---
