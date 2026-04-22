@@ -1,28 +1,29 @@
 # SCADA Overview
 
 ## System Description
-
-The Supervisory Control And Data Acquisition (SCADA) system integrates industrial control hardware with modern software infrastructure to enable real-time monitoring and control of automated processes. This implementation consists of two major hubs working in coordination to provide comprehensive process control and visualization.
+The Supervisory Control and Data Acquisition (SCADA) system enables centralized monitoring and control by integrating communication between key system components. It facilitates real-time data exchange, process control, and visualization through the use of multiple industrial communication protocols.
 
 ## Architecture Components
 
 ### 1. Click PLC CPU (192.168.1.10)
+The CLICK PLC functions as the primary control unit, executing pre-defined logic to manage the process. It continuously monitors and updates internal variables (memory/registers), which represent system states such as inputs, outputs, and process values.
+These variables can be accessed by external systems via communication protocols (e.g., Modbus TCP), allowing remote monitoring and control without interfering with the PLC’s core logic.
+### 2. Node-RED Data Hub (Laptop - 192.168.1.20)
+Node-RED serves as the central data integration and communication hub. It bridges multiple protocols and devices, enabling seamless data flow between the PLC, MQTT broker, and other system components.
 
-The Click PLC serves as the primary control unit, executing pre-programmed logic for industrial automation tasks.
+In addition, Node-RED provides the Human-Machine Interface (HMI), allowing users to:
 
-**Key Functions:**
-- **Input Processing**: Receives digital signals from connected input devices
-- **Logic Execution**: Processes control logic based on programmed variables and data sets
-- **Output Control**: Sends commands to output devices based on process logic
-- **Process Logging**: Maintains operational logs for monitoring and troubleshooting
+Monitor real-time process data
+Send control commands to the system
+Visualize system status through dashboards
+---
+
+
+
 
 **Communication Protocol:**
 - **Modbus TCP**: Enables network-based communication for reading and writing coils and registers
 - **Connection**: RJ45 Ethernet cable for reliable industrial networking
-
-### 2. Node-RED Data Hub (Laptop - 192.168.1.20)
-
-Node-RED operates as a centralized data integration platform, bridging multiple protocols and providing visualization capabilities.
 
 **Deployment Environment:**
 - Runs within a Docker container for portability and isolation
