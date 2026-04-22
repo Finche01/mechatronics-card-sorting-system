@@ -33,9 +33,11 @@
 - Identifies the rank and suit from a predefined template set  
 - Publishes the result to the MQTT broker  
 
-![Template Examples](image/scada_diagram/template_examples.png)
-
-*Example of predefined templates*
+<p align="center">
+  <img src="image/scada_diagram/template_examples.png" width="500"/>
+  <br>
+  <em>Example of predefined templates</em>
+</p>
 
 ## 4. Node-Red Dashboard
 | ![SCADA](image/scada_diagram/Dashboard.png) |
