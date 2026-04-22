@@ -9,14 +9,14 @@ The electrical system consists of three main subsystems:
 # 1. Power Distribution Schematic
 ![Power Distribution Schematic](image/schematic_images/Power_schematic.png)
 
-#### Power Supply Units
+## Power Supply Units
 | Supply Unit | Input | Output | Current | Application |
 |:------------|:------|:-------|:--------|:------------|
 | **POWER_SUPPLY_1** | 240VAC / 1.3A | 24VDC | PLC rated | PLC and I/O modules |
 | **POWER_SUPPLY_2** | 240VAC / 8.5A | 24VDC | Motors rated | Motor drivers |
 | **DC/DC CONVERTER** | 24VDC | 12VDC | TBD | Solenoids/Accessories |
 
-#### Terminal Blocks
+## Terminal Blocks
 | Terminal Block | Voltage | Usage |
 |:---------------|:--------|:------|
 | **TB_Logic** | +24V / 0V | PLC I/O Power Terminals |
@@ -36,12 +36,12 @@ The electrical system consists of three main subsystems:
 | **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
-#### Motor Driver Reference
+## Motor Driver Reference
 | Motor Driver Pinout | Driver Config |
 |:--------------------|:--------------|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
-#### Signal Pins
+### Signal Pins
 | Pin | Function | Description |
 |:----|:---------|:-----------|
 | **PUL+** | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
@@ -51,7 +51,7 @@ The electrical system consists of three main subsystems:
 | **ENA+** | Enable signal positive | Motor enable control: LOW = motor energized and holding, HIGH = motor disabled/free |
 | **ENA-** | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
 
-#### High Voltage Pins
+### High Voltage Pins
 | Pin | Function | Description |
 |:----|:---------|:-----------|
 | **GND** | Power ground | Common ground reference for driver electronics |
