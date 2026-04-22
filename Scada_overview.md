@@ -14,6 +14,7 @@ Node-RED functions as the central data hub. It connects different protocols and 
 - **MQTT**: Enables publish/subscribe communication between the Python vision script and Node-RED.
 ---
 ## Deployment Environment
+![SCADA](image/scada_diagram/Docker_containers.png)
 - Node-RED and the MQTT broker are deployed as containers using Docker Desktop.  
 - Running them in containers simplifies network setup and provides isolation between services.  
 - Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment.
@@ -25,6 +26,7 @@ Node-RED functions as the central data hub. It connects different protocols and 
 - Enables data exchange between Node-RED and other components (e.g., vision system)  
 
 ### b) VisionSystem.py (OpenCV)
+![SCADA](image/scada_diagram/template_examples.png)
 - Captures images from a USB camera when triggered  
 - Processes the image (grayscale, filtering, template matching)  
 - Identifies the rank and suit from a predefined template set  
