@@ -13,10 +13,10 @@
 ## Deployment Environment
 
 | ![SCADA](image/scada_diagram/Docker_containers.png) |
-|----------------------------------------------------|
-| - Node-RED and the MQTT broker are deployed as containers using Docker Desktop. <br>
-  - Running them in containers simplifies network setup and provides isolation between services. <br>
-  - Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment. |
+
+ - Node-RED and the MQTT broker are deployed as containers using Docker Desktop. <br>
+ - Running them in containers simplifies network setup and provides isolation between services. <br>
+ - Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment. 
 ---
 ## Core Services
 
