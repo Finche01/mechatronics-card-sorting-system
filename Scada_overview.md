@@ -35,3 +35,7 @@
 - Publishes the result to the MQTT broker  
 
 ---
+
+## 4. Node-Red Dashboard
+| ![SCADA](image/scada_diagram/Dashboard.png) |
+|----------------------------------------------------|
