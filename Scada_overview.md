@@ -9,9 +9,7 @@ The Supervisory Control and Data Acquisition (SCADA) system enables centralized 
 The CLICK PLC functions as the primary control unit, executing pre-defined logic to manage the process. It continuously monitors and updates internal variables (memory/registers), which represent system states such as inputs, outputs, and process values.
 These variables can be accessed by external systems via communication protocols (e.g., Modbus TCP), allowing remote monitoring and control without interfering with the PLC’s core logic.
 ### 2. Node-RED Data Hub (Laptop - 192.168.1.20)
-Node-RED serves as the central data integration and communication hub. It bridges multiple protocols and devices, enabling seamless data flow between the PLC, MQTT broker, and other system components.
-
-In addition, Node-RED provides the Human-Machine Interface (HMI), allowing users to:
+Node-RED serves as the central data integration and communication hub. It bridges multiple protocols and devices, enabling seamless data flow between the PLC, MQTT broker, and other system components. In addition, Node-RED provides the Human-Machine Interface (HMI), allowing users to:
 - Monitor real-time process data
 - Send control commands to the system
 - Visualize system status through dashboards
