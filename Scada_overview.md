@@ -12,10 +12,10 @@ These variables can be accessed by external systems via communication protocols 
 Node-RED serves as the central data integration and communication hub. It bridges multiple protocols and devices, enabling seamless data flow between the PLC, MQTT broker, and other system components.
 
 In addition, Node-RED provides the Human-Machine Interface (HMI), allowing users to:
+- Monitor real-time process data
+- Send control commands to the system
+- Visualize system status through dashboards
 
-Monitor real-time process data
-Send control commands to the system
-Visualize system status through dashboards
 ---
 
 
