@@ -13,21 +13,26 @@
 ### Deployment Environment
 
 | ![SCADA](image/scada_diagram/Docker_containers.png) |
+|----------------------------------------------------|
 
- - Node-RED and the MQTT broker are deployed as containers using Docker Desktop. <br>
- - Running them in containers simplifies network setup and provides isolation between services. <br>
- - Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment. 
+#### Containers
+
+| Container                              | Role                | Port |
+|----------------------------------------|---------------------|------|
+| **Node-RED (192.168.1.20)**            | Data Hub / HMI      | 1880 |
+| **MQTT Broker (192.168.1.20)**         | Message Broker      | 1883 |
+
+#### Notes
+- Node-RED and the MQTT broker are deployed as containers using Docker Desktop.  
+- Running them in containers simplifies network setup and provides isolation between services.  
+- Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment.  
+
 ---
-### Core Services
-
-#### a) MQTT Broker (Port 1883)
-- Handles publish/subscribe messaging  
-- Enables data exchange between Node-RED and other components (e.g., vision system)  
-
-#### b) VisionSystem.py (OpenCV)
-- Captures images from a USB camera when triggered  
+### VisionSystem.py (OpenCV)
+- An OpenCV python script that is used for card identification logic.
+- It Captures images from a USB camera when triggered  
 - Processes the image (grayscale, filtering, template matching)  
 - Identifies the rank and suit from a predefined template set  
 - Publishes the result to the MQTT broker  
-
+![SCADA](image/scada_diagram/template_examples.png)
 ---
