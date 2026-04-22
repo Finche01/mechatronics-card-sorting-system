@@ -26,14 +26,16 @@
 
 ---
 ## 3. VisionSystem.py (OpenCV)
-- An OpenCV python script that is used for card identification logic.
-- It Captures images from a USB camera when triggered  
+
+- An OpenCV Python script used for card identification logic  
+- Captures images from a USB camera when triggered  
 - Processes the image (grayscale, filtering, template matching)  
 - Identifies the rank and suit from a predefined template set  
 - Publishes the result to the MQTT broker  
-|![SCADA](image/scada_diagram/template_examples.png)|
-|An examples of predefined template |
----
+
+![Template Examples](image/scada_diagram/template_examples.png)
+
+*Example of predefined templates*
 
 ## 4. Node-Red Dashboard
 | ![SCADA](image/scada_diagram/Dashboard.png) |
