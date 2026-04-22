@@ -1,18 +1,18 @@
 # SCADA Overview
 
-## 1. System Description
-The Supervisory Control and Data Acquisition (SCADA) system enables centralized monitoring and control by integrating communication between key system components. It supports real-time data exchange, process control, and visualization using multiple industrial communication protocols.
+## System Overview
+![SCADA](image/scada_diagram/Scada_diagram.png)
 
 ---
 
-## 2. Main Architecture
+## 1. Main Architecture
 
-### Click PLC CPU (192.168.1.10)
+### A. Click PLC CPU (192.168.1.10)
 The CLICK PLC acts as the main control unit, executing pre-defined logic to manage the process. It continuously monitors and updates internal variables (memory/registers). These variables can be accessed by external systems through communication protocols such as Modbus TCP.
 
 ---
 
-### Node-RED Data Hub (Laptop – 192.168.1.20)
+### B. Node-RED Data Hub (Laptop – 192.168.1.20)
 Node-RED functions as the central data hub. It connects different protocols and devices, allowing data to flow between the PLC, MQTT broker, and other components in the system.
 
 ---
