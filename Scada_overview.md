@@ -4,14 +4,11 @@
 
 ---
 
-| Component                         | Role                | Protocols Used | Description |
-|----------------------------------|---------------------|----------------|-------------|
-| **Click PLC CPU (192.168.1.10)** | Control Unit        | Modbus TCP     | Executes pre-defined logic to manage the process. Continuously monitors and updates internal variables (coils/registers). |
-| **Node-RED (192.168.1.20)** | Data Integration | Modbus TCP, MQTT | Connects different protocols and devices, enabling data flow between the PLC, MQTT broker, and other system components. |
+| Component                      | Role              | Protocols Used                              | Description |
+|--------------------------------|-------------------|---------------------------------------------|-------------|
+| **PLC CPU (192.168.1.10)**     | Control Unit      | Modbus TCP (Server)                         | Executes pre-defined logic to manage the process. Continuously monitors and updates internal variables (coils/registers). |
+| **Node-RED (192.168.1.20)**    | Data Integration  | Modbus TCP (Client), MQTT (Vision System)   | Connects different protocols and devices, enabling data flow between the PLC, MQTT broker, and other system components. |
 
-## Communication Protocols
-- **Modbus TCP**: Enables communication between the PLC and Node-RED over an RJ45 Ethernet connection.  
-- **MQTT**: Enables publish/subscribe communication between the Python vision script and Node-RED.
 ---
 ## Deployment Environment
 ![SCADA](image/scada_diagram/Docker_containers.png)
