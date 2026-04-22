@@ -3,14 +3,14 @@
 ![SCADA](image/scada_diagram/Scada_diagram.png)
 
 ---
-### Main Components
+### 1. Main Components
 | Component                      | Role              | Protocols Used                              | Description |
 |--------------------------------|-------------------|---------------------------------------------|-------------|
 | **PLC CPU (192.168.1.10)**     | Control Unit      | Modbus TCP (Server)                         | Executes pre-defined logic to manage the process. Continuously monitors and updates internal variables (coils/registers). |
 | **Node-RED (192.168.1.20)**    | Data Integration  | Modbus TCP (Client), MQTT (Vision System)   | Connects different protocols and devices, enabling data flow between the PLC, MQTT broker, and other system components. |
 
 ---
-### Deployment Environment
+### 2. Deployment Environment
 | ![SCADA](image/scada_diagram/Docker_containers.png) |
 |----------------------------------------------------|
 
@@ -25,7 +25,7 @@
 - Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment.  
 
 ---
-### VisionSystem.py (OpenCV)
+### 3. VisionSystem.py (OpenCV)
 |![SCADA](image/scada_diagram/template_examples.png)|
 |----------------------------------------------------|
 - An OpenCV python script that is used for card identification logic.
