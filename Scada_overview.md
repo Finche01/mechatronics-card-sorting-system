@@ -20,28 +20,14 @@ Node-RED functions as the central data hub. It connects different protocols and 
 ---
 ## Core Services
 
-### a) Node-RED (Port 1880)
-- Acts as the main data hub  
-- Handles communication between different protocols  
-- Processes and routes data within the system  
-
----
-
-### b) MQTT Broker (Port 1883)
+### a) MQTT Broker (Port 1883)
 - Handles publish/subscribe messaging  
 - Enables data exchange between Node-RED and other components (e.g., vision system)  
 
----
-
-### c) HMI Dashboard (Port 1880/ui)
-- Web-based interface for monitoring and control  
-- Displays real-time system data  
-- Accessible through a web browser  
-
----
-
-### d) VisionSystem.py (OpenCV)
+### b) VisionSystem.py (OpenCV)
 - Captures images from a USB camera when triggered  
 - Processes the image (grayscale, filtering, template matching)  
 - Identifies the rank and suit from a predefined template set  
 - Publishes the result to the MQTT broker  
+
+---
