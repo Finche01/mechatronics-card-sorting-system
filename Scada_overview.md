@@ -14,9 +14,6 @@
 
 | ![SCADA](image/scada_diagram/Docker_containers.png) |
 |----------------------------------------------------|
-
-#### Containers
-
 | Container                              | Role                | Port |
 |----------------------------------------|---------------------|------|
 | **Node-RED (192.168.1.20)**            | Data Hub / HMI      | 1880 |
