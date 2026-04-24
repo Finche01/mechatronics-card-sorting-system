@@ -1,24 +1,33 @@
-# Mechatronics-card-sorting-system
-An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine capable of identifying and sorting a deck of playing cards into a pre-coordinated bin. 
-This project was developed at Seneca Polytec for Technical Capstone Project (Winter 2026)
+# Mechatronics Card Sorting System
+
+An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine capable of identifying and sorting a deck of playing cards into pre-programmed coordinates. This project was developed at Seneca Polytechnic for the Technical Capstone Project (Winter 2026) and awarded for excellence within its category.
+
+## Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=5UDdJZO3KzA">
+    <img src="https://img.youtube.com/vi/5UDdJZO3KzA/maxresdefault.jpg" alt="Card Sorting System Demo" width="700">
+  </a>
+  <p><em>Click the image above to watch the full demonstration</em></p>
+</div>
 
 ## Highlights
 
-<div style="background-color: #1a1a1a; padding: 20px; border-radius: 8px;">
+### Key Features
 
-**The key features of the system:**
-1. <span style="color: #4A9EFF;">**Programmable Logic Controller (PLC) - Centralized processing unit**</span>
-2. <span style="color: #4A9EFF;">**Three-axis gantry - Material transport unit**</span>
-3. <span style="color: #4A9EFF;">**Machine Vision (USB camera) - Image data acquisition unit**</span>
-4. <span style="color: #4A9EFF;">**Pneumatic circuit - Material handling unit**</span>
+The system comprises four integrated subsystems:
 
-**Key Performance Indictator (KPIs):**
-1. <span style="color: #4A9EFF;">**Cycle Time**: 14-20 seconds per card / 25 mins per deck (total 54)</span>
-2. <span style="color: #4A9EFF;">**Throughput**: ~4.5 cards per minute
-3. <span style="color: #4A9EFF;">**Classification Accuracy**: 98%
-4. <span style="color: #4A9EFF;">**Average Confidence**: ~85%
-5. <span style="color: #4A9EFF;">**Pickup Reliability**: ~99% (under normal conditions)
+1. **Programmable Logic Controller (PLC)** - Centralized processing unit
+2. **Three-Axis Gantry** - Material transport unit
+3. **Machine Vision (USB Camera)** - Image data acquisition unit
+4. **Pneumatic Circuit** - Material handling unit
 
+### Key Performance Indicators (KPIs)
 
-</div>
-
+| Metric | Performance |
+|--------|-------------|
+| **Cycle Time** | 14-20 seconds per card / 25 minutes per deck (54 cards) |
+| **Throughput** | ~4.5 cards per minute |
+| **Classification Accuracy** | 98% |
+| **Average Confidence** | ~85% |
+| **Pickup Reliability** | ~99% (under normal conditions) |
