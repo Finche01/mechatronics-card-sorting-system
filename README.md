@@ -11,8 +11,10 @@ An automated Pick-and-Place Card Sorting System is a fully integrated mechatroni
 
 <div align="center">
   <img src="image/Rank-TPJ_@thursday1869.gif" alt="Card Sorting System Demo" width="700">
+  <p><em>Automated card sorting system in action</em></p>
+  
   <p>
-    <a href="https://www.youtube.com/watch?v=5UDdJZO3KzA">Original video (13:43)</a> by <a href="https://www.youtube.com/@thursday1869">Thursday</a>
+    <a href="https://www.youtube.com/watch?v=5UDdJZO3KzA">🎬 Watch Full Demo (13:43)</a> • Video by <a href="https://www.youtube.com/@thursday1869">@thursday1869</a>
   </p>
 </div>
 
