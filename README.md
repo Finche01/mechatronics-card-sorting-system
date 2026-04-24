@@ -1,13 +1,11 @@
 # Mechatronics Card Sorting System
 
-An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine capable of identifying and sorting a deck of playing cards into pre-programmed coordinates. This project was developed at Seneca Polytechnic for the Technical Capstone Project (Winter 2026) and awarded for excellence within its category.
-
-## System Overview
-
 <div align="center">
   <img src="image/Showcase.png" alt="Mechatronics Card Sorting System - Seneca Polytechnic Showcase" width="600">
   <p><em>Final showcase at Seneca Polytechnic (Winter 2026)</em></p>
 </div>
+
+An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine capable of identifying and sorting a deck of playing cards into pre-programmed coordinates. This project was developed at Seneca Polytechnic for the Technical Capstone Project (Winter 2026) and awarded for excellence within its category.
 
 ## Demo Video
 
