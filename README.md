@@ -17,9 +17,6 @@ An automated Pick-and-Place Card Sorting System is a fully integrated mechatroni
 </div>
 
 ### Key Features
-
-The system comprises four integrated subsystems:
-
 | # | Subsystem | Function |
 |---|-----------|----------|
 | 1 | **Programmable Logic Controller (PLC)** | Centralized processing unit |
