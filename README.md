@@ -12,8 +12,8 @@ An automated Pick-and-Place Card Sorting System is a fully integrated mechatroni
 ## Demo Video
 
 <div align="center">
-  <img src="image/Rank-TPJ_@thursday1869.gif" alt="Card Sorting System Demo" width="700">
-  <p><em>Automated card sorting system in action</em></p>
+  <img src="image/Showcase.png" alt="Mechatronics Card Sorting System - Seneca Polytechnic Showcase" width="700">
+  <p><em>Final showcase at Seneca Polytechnic (Winter 2026)</em></p>
   
   <p>
     <a href="https://www.youtube.com/watch?v=5UDdJZO3KzA">🎬 Watch Full Video on YouTube</a><br>
