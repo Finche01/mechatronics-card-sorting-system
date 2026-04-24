@@ -15,7 +15,7 @@ An automated Pick-and-Place Card Sorting System is a fully integrated mechatroni
     <a href="https://www.youtube.com/watch?v=5UDdJZO3KzA">Original video (13:43)</a> by <a href="https://www.youtube.com/@thursday1869">@thursday1869</a>
   </p>
 </div>
-
+---
 ### Key Features
 The system comprises four integrated subsystems:
 
