@@ -25,12 +25,7 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 
 | Type   | Address | Tag Name                  | Function / Description                     |
 |--------|---------|---------------------------|--------------------------------------------|
-| OUTPUT | Y001    | X_Pulse                   | X-axis step pulse                          |
-| OUTPUT | Y002    | X_Direction               | X-axis direction control                   |
-| OUTPUT | Y003    | Y_Pulse                   | Y-axis step pulse                          |
-| OUTPUT | Y004    | Y_Direction               | Y-axis direction control                   |
-| OUTPUT | Y005    | Z_Pulse                   | Z-axis step pulse                          |
-| OUTPUT | Y006    | Z_Direction               | Z-axis direction control                   |
+|OUTPUT | Y001–Y006 | X/Y/Z Pulse & Direction | Stepper motor control signals for X, Y, Z axes
 | OUTPUT | Y026    | Main_Cage_LED             | System status lighting                     |
 | OUTPUT | Y101    | Motor_Disable             | Motor disable control                      |
 | OUTPUT | Y102    | Vision_LED                | Illumination for camera                    |
