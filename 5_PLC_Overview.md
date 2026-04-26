@@ -12,12 +12,12 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 ---
 
 ## Program Sequence
-<div align="left">
-  <img src="image/sequential_diagram_initialization.png" width="40%">
+<div align="center">
+  <img src="image/sequential_diagram_initialization.png" width="50%">
 </div>
 
 ---
 
-<div align="left">
-  <img src="image/sequential_diagram_ranks.png" width="40%">
+<div align="center">
+  <img src="image/sequential_diagram_ranks.png" width="50%">
 </div>
