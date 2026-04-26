@@ -5,16 +5,16 @@
 ![3-Axis Platform - Assembled View](image/hardware_images/3-axis_overview.png)<br><br> ![3-Axis Platform - Exploded View](image/hardware_images/3-axis_explosion.png)<br>
 
 ---
-| Component | Description | Function |
-|-----------|-------------|----------|
-| **X-Axis** | Horizontal gantry carriage with stepper motor | Left-right motion control |
-| **Y-Axis (1)** | Left-side rail motor assembly | Front-back motion (dual motor synchronization) |
-| **Y-Axis (2)** | Right-side rail motor assembly | Front-back motion (dual motor synchronization) |
-| **Z-Axis** | Vertical spindle/tool carriage | Up-down motion control |
-| **USB CAM** | Integrated camera module | Visual positioning and alignment |
-| **Limit Switch** | End-stop position sensor | Axis homing and travel limits |
-| **Photoelectric Sensor** | Workpiece detection/homing | Z-axis probing and workpiece detection |
-| **Suction Cup** | Workpiece holding fixture | Part retention during operations |
+| Component                | Description                              | Function                                  |
+|-------------------------|------------------------------------------|-------------------------------------------|
+| **X-Axis**              | Horizontal gantry carriage with stepper motor | Lateral (X-axis) positioning              |
+| **Y-Axis (Left)**       | Left-side rail motor assembly            | Longitudinal (Y-axis) positioning (dual-motor synchronization) |
+| **Y-Axis (Right)**      | Right-side rail motor assembly           | Longitudinal (Y-axis) positioning (dual-motor synchronization) |
+| **Z-Axis**              | Vertical spindle/tool carriage           | Vertical (Z-axis) positioning             |
+| **USB Camera**          | Integrated vision module                 | Image capture for positioning and alignment |
+| **Limit Switch**        | Mechanical end-stop sensor               | Axis homing and travel limit detection    |
+| **Photoelectric Sensor**| Optical detection sensor                 | Workpiece detection and Z-axis reference  |
+| **Suction Cup**         | Vacuum end-effector                      | Part handling and retention               |
 
 
 ---
