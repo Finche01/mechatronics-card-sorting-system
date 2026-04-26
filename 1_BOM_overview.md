@@ -10,7 +10,7 @@
 | Power / Electrical Components    | $307.47   |
 | Sensors & Switches               | $42.09    |
 | Miscellaneous                    | $492.47   |
-| GRAND TOTAL                      | $2,475.87 |
+| **GRAND TOTAL**                      | **$2,475.87** |
 
 ---
 
