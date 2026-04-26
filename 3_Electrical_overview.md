@@ -28,7 +28,7 @@ The electrical system consists of three main subsystems:
 ---
 
 # 2. Motor Control Schematic
-<div align="center">
+<div align="left">
   <img src="image/schematic_images/Motor_schematic.png" width="90%">
 </div>
 
