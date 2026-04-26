@@ -46,23 +46,27 @@ The electrical system consists of three main subsystems:
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
 
 ### Signal Pins
-| Pin | Function | Description |
-|:----|:---------|:-----------|
-| **PUL+** | Step signal positive | Receives pulse train from PLC/controller - each pulse advances motor by one microstep |
-| **PUL-** | Step signal ground | Ground reference for step signal (differential pair with PUL+) |
-| **DIR+** | Direction signal positive | Sets rotation direction: HIGH = clockwise, LOW = counter-clockwise |
-| **DIR-** | Direction signal ground | Ground reference for direction signal (differential pair with DIR+) |
-| **ENA+** | Enable signal positive | Motor enable control: LOW = motor energized and holding, HIGH = motor disabled/free |
-| **ENA-** | Enable signal ground | Ground reference for enable signal (differential pair with ENA+) |
 
-### High Voltage Pins
 | Pin | Function | Description |
 |:----|:---------|:-----------|
-| **GND** | Power ground | Common ground reference for driver electronics |
-| **VEL+** | Velocity feedback positive | Optional encoder feedback signal for closed-loop control |
-| **VEL-** | Velocity feedback ground | Optional encoder feedback signal (ground/negative) |
-| **A+ / A-** | Motor coil A | Phase A winding connections to stepper motor (bipolar) |
-| **B+ / B-** | Motor coil B | Phase B winding connections to stepper motor (bipolar) |
+| **PUL+** | Step signal (+) | Receives pulses from the PLC; each pulse moves the motor one step |
+| **PUL-** | Step signal (-) | Ground/reference for the step signal |
+| **DIR+** | Direction (+) | Controls motor direction (HIGH = clockwise, LOW = counterclockwise) |
+| **DIR-** | Direction (-) | Ground/reference for the direction signal |
+| **ENA+** | Enable (+) | Turns the motor on/off (LOW = enabled, HIGH = disabled) |
+| **ENA-** | Enable (-) | Ground/reference for the enable signal |
+
+---
+
+### Power & Motor Connections
+
+| Pin | Function | Description |
+|:----|:---------|:-----------|
+| **GND** | Ground | Common ground for the driver |
+| **VEL+** | Feedback (+) | Optional signal for speed/feedback |
+| **VEL-** | Feedback (-) | Ground/reference for feedback |
+| **A+ / A-** | Motor coil A | Connects to motor phase A |
+| **B+ / B-** | Motor coil B | Connects to motor phase B |
 
 ---
 
