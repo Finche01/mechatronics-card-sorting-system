@@ -3,7 +3,6 @@
 The Programmable Logic Controller (PLC) serves as the central control unit of the Card Sorting System. It manages motion control, sequencing, sensor integration, and communication with external systems to ensure reliable and coordinated operation.
 
 ---
-
 ## System Configuration
 
 | Category              | Details                          |
@@ -12,16 +11,9 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | Language Used        | Ladder Logic                     |
 | Communication        | Modbus TCP                       |
 | Features Used        | Timers, counters, indexing, function calls |
-
----
-
-## I/O Summary
-
-**Total I/O Count**
-- Inputs: 9  
-- Outputs: 17  
-- Total: 26  
-
+| Inputs               | 9                                |
+| Outputs              | 17                               |
+| Total I/O            | 26                               |
 ---
 
 ## Input Signals
