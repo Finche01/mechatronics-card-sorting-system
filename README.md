@@ -42,7 +42,7 @@ The project was developed at Seneca Polytechnic as part of the Technical Capston
 |--------|-------------|
 | **Cycle Time** | 14-20 seconds per card / 25 minutes per deck (54 cards) |
 | **Throughput** | ~4.5 cards per minute |
-| **Classification Accuracy** | 98% |
+| **Classification Accuracy** | ~98% |
 | **Average Confidence** | ~85% |
 | **Pickup Reliability** | ~99% (under normal conditions) |
 
