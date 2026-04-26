@@ -23,8 +23,8 @@
 | Documentation       | OCETT Technicial Report         |
 | Team Members         | @Thursday1869                      |
 
-An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic system designed to identify and sort a deck of playing cards into predefined locations. The system integration of PLC, machine vision, and Pnematic circuits to automate its process.
-The project was developed at Seneca Polytechnic as part of the Technical Capstone Project (Winter 2026) and was recognized for excellence within its category.
+An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic system designed to identify and sort a deck of playing cards into predefined locations. The system integration of PLC, machine vision, and pnematic circuits to automate its process.
+The project was developed at Seneca Polytechnic as part of the Technical Capstone Project (Winter 2026) and was awarded for excellence within its category.
 
 ---
 
