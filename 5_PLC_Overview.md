@@ -10,10 +10,9 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | Programming Software | CLICK PLC Programming Software   |
 | Language Used        | Ladder Logic                     |
 | Communication        | Modbus TCP                       |
-| Features Used        | Timers, counters, indexing, function calls |
-| Inputs               | 9                                |
-| Outputs              | 17                               |
 | Total I/O            | 26                               |
+| Features Used        | Timers, counters, indexing, function calls |
+
 ---
 
 ## Input Signals
@@ -29,7 +28,6 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | X021    | Tool_Compression          | Tool compression (card contact)      |
 | X022    | Tool_Card_Detect          | Card presence detection              |
 | X025    | Vacuum_Ok                 | Vacuum pressure confirmation         |
-
 ---
 
 ## Output Signals
