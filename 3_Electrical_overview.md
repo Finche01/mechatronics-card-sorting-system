@@ -80,6 +80,6 @@ The electrical system consists of three main subsystems:
 | **C2-14DR** | I/O Combo module | Relay output control |
 | **SOL1-4** | 5/2 solenoid valves | Double-acting pneumatic control |
 | **Pressure Switch** | Air pressure sensor | Monitors system pressure |
-| **Flipper Motor** | Tilt mechanism motor | 24V geared DC motor |
+| **Flipper Motor** | Tilt mechanism motor | Geared DC motor |
 | **LED Strip** | Status / vision lighting | Provides diffused lighting for machine vision |
 ---
