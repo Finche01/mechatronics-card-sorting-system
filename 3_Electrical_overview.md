@@ -8,7 +8,7 @@ The electrical system consists of three main subsystems:
 
 # 1. Power Distribution Schematic
 <div align="center">
-  <img src="image/schematic_images/Power_schematic.png" width="90%">
+  <img src="image/schematic_images/Power_schematic.png" width="80%">
 </div>
 
 ## Power Supply Units
