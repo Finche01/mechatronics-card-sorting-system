@@ -1,5 +1,5 @@
 # Bill of Materials (BOM)
-This section outlines the major components used in the system
+This section includes all components used in the system.
 
 | Section                           | Subtotal  |
 |----------------------------------|-----------|
