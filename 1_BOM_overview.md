@@ -1,5 +1,7 @@
 # Bill of Materials (BOM)
+This section outlines the major components used in the system
 ## Cost Summary
+*All prices in CAD*
 
 | Section                           | Subtotal  |
 |----------------------------------|-----------|
@@ -10,13 +12,13 @@
 | Power / Electrical Components    | $307.47   |
 | Sensors & Switches               | $42.09    |
 | Miscellaneous                    | $492.47   |
-| **GRAND TOTAL**                      | **$2,475.87** |
+| GRAND TOTAL                    | $2,475.87 |
 
 ---
 
 ## 3-Axis Gantry
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **CNC Machine** | 1 | $469.99 | 3-Axis Wood Engraving Milling Machine, 300W Spindle, 15.75" x 15.75" x 2.36" Working Area, Aluminum Alloy Structure, Offline Controller included | <img src="image/bom_images/component_001.png" width="160" alt="CNC"> | [Purchase](https://www.vevor.ca/) |
 | **Stepper Driver** | 4 | $29.99 | Digital Microstep Driver, 2-Phase 5.6A for NEMA23/34, 24-50V supply, 8-level adjustable current 1.0-5.6A, Optical isolation, 200kHz pulse response | <img src="image/bom_images/component_026.jpg" width="160" alt="Driver"> | [Datasheet](https://www.omc-stepperonline.com/download/DM556T.pdf) · [Purchase](https://www.amazon.ca/dp/B0CS3XBN2X) |
@@ -27,7 +29,7 @@
 
 ## PLC System
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Power Supply** | 1 | $73.00 | CLICK AC power supply, 100-240 VAC input, 24 VDC nominal output, 1.3A continuous | <img src="image/bom_images/component_002.png" width="160" alt="PSU"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/power_supplies/c0-01ac) |
 | **PLC CPU** | 1 | $207.90 | CLICK PLUS PLC, 24 VDC, (2) option slots, Ethernet, Serial, MicroB-USB ports, Battery backup, No on-board I/O | <img src="image/bom_images/component_003.png" width="160" alt="CPU"> | [Datasheet](https://www.automationdirect.com/) · [Purchase](https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/click_plus_plcs_(stackable_micro_modular)/cpus/c2-01cpu-2) |
@@ -40,18 +42,18 @@
 
 ## Vision System
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **USB Camera** | 1 | $28.35 | 1080P@30fps USB2.0 UVC Camera, YUY2/MJPEG format, FOV 130°(D)/103°(H), M12 lens mount, Indoor/Outdoor rated | <img src="image/bom_images/component_012.png" width="160" alt="Cam"> | [Purchase](https://www.amazon.ca/dp/B0CNCSFQC1) |
 | **6mm Wide Angle Lens** | 1 | $13.99 | uxcell 3MP F2.0 CCTV Camera Lens, 6mm focal length, M12 threaded, Black, For IP cameras | <img src="image/bom_images/component_018.png" width="160" alt="Lens"> | [Purchase](https://www.amazon.ca/dp/B0CWRYQGZY) |
-| **USB Exntension Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | <img src="image/bom_images/component_006.png" width="160" alt="USB"> | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
+| **USB Extension Cable** | 1 | $11.50 | Programming cable, USB A to MicroB-USB, 15ft, For Productivity PLCs and USB devices | <img src="image/bom_images/component_006.png" width="160" alt="USB"> | [Purchase](https://www.automationdirect.com/adc/shopping/catalog/cables_(terminated)/plc_cables/usb-cbl-amicb15) |
 | **COB LED Strip** | 1 | $25.99 | FCOB 24V Cool White 6000K, 5m length, 480 LEDs/m, 8mm width, Dimmable | <img src="image/bom_images/component_023.png" width="160" alt="LED"> | [Purchase](https://www.amazon.ca/dp/B0F83XN79B) |
 
 ---
 
 ## Pneumatics & Vacuum Operation
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Diaphragm <br>Vacuum Pump** | 1 | $33.52 | 24V 0.4-1L/min Miniature Diaphragm Pump for Air/Liquid, Compact design for vacuum generation | <img src="image/bom_images/component_010.png" width="160" alt="Pump"> | [Purchase](https://www.amazon.ca/dp/B07T5BXDHP) |
 | **ZSE30 Vacuum Pressure Switch** | 1 | $43.99 | Digital Pressure Switch, 12-24VDC, 0 to -101kPa range, 1 PNP output, G1/8 port | <img src="image/bom_images/component_030.jpg" width="160" alt="Switch"> | [Datasheet](https://www.amazon.ca/dp/B0CNDFQQ4J) · [Purchase](https://www.amazon.ca/dp/B0CNDFQQ4J) |
@@ -70,7 +72,7 @@
 
 ## Power / Electrical Components
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **LRS-200-36 <br>Power Supply** | 1 | $37.53 | Mean Well Enclosed AC-DC Converter, 36V output, 90-132/180-264 VAC input, 240-370 VDC input | <img src="image/bom_images/component_009.png" width="160" alt="PS36"> | [Datasheet](https://www.digikey.ca/) · [Purchase](https://www.digikey.ca/en/products/detail/mean-well-usa-inc/LRS-200-36/7705024) |
 | **LRS-150F-24 <br>Power Supply** | 1 | $30.00 | Mean Well 24V 6.5A 156W, Single Output Switching Power Supply | <img src="image/bom_images/component_041.jpg" width="160" alt="PS24"> | [Datasheet](https://www.meanwell.com/) · [Purchase](https://www.amazon.ca/dp/B018RE4DQ2) |
@@ -83,7 +85,7 @@
 
 ## Sensors & Switches
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Photoelectric Sensor** | 1 | $19.77 | E3Z-D61 Type, 12-24VDC NPN, Diffuse Reflection Infrared, 100mm detection range, 1.9m cable | <img src="image/bom_images/component_011.png" width="160" alt="Photo"> | [Datasheet (Similar)](https://www.amazon.ca/) · [Purchase](https://www.amazon.ca/dp/B083FQYLJD) |
 | **Limit Switch** | 1 | $3.33 | Omron Mechanical Limit Switch | <img src="image/bom_images/component_015.png" width="160" alt="Limit"> | [Datasheet](https://www.omron.com/) · [Purchase](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/V-156-1C25/5237043) |
@@ -93,7 +95,7 @@
 
 ## Miscellaneous
 
-| Part | Qty | Price | Summary | Pic | Links |
+| Part | Qty | Price | Description | Pic | Links |
 |:----:|:---:|:-----:|:-------:|:---:|:-----:|
 | **Playing Cards** | 1 (2 deck) | $24.98 | WES Bridge Cards, Matte finish, Premium plastic, Standard index | <img src="image/bom_images/component_019.png" width="160" alt="Cards"> | [Purchase](https://www.amazon.ca/dp/B0DD2PMKMS) |
 | **PLA Filament** | 4 | $29.99 | Creality RFID, 1.75mm, 1kg/spool, High speed 30-600mm/s compatible | <img src="image/bom_images/component_024.jpg" width="160" alt="PLA"> | [Purchase](https://www.amazon.ca/dp/B0DHXDRZ74) |
