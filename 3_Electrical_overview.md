@@ -8,7 +8,7 @@ The electrical system consists of three main subsystems:
 
 # 1. Power Distribution Schematic
 <div align="center">
-  <img src="image/schematic_images/Power_schematic.png" width="100%">
+  <img src="image/schematic_images/Power_schematic.png" width="90%">
 </div>
 
 ## Power Supply Units
@@ -29,7 +29,7 @@ The electrical system consists of three main subsystems:
 
 # 2. Motor Control Schematic
 <div align="left">
-  <img src="image/schematic_images/Motor_schematic.png" width="90%">
+  <img src="image/schematic_images/Motor_schematic.png" width="80%">
 </div>
 
 | Component | Description | Specifications |
