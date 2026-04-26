@@ -31,9 +31,9 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | OUTPUT | Y102    | Vision_LED                | Illumination for camera                    |
 | OUTPUT | Y104    | Vacuum_Pump               | Vacuum pump activation                     |
 | OUTPUT | Y105–Y108 | Vacuum / Solenoid Control | Controls suction and release for tool and flipper mechanisms |
-| OUTPUT | Y113    | Flipper_RUN               | Flipper motor enable                       |
-| OUTPUT | Y114    | Flipper_FWD               | Flipper forward direction                  |
-| OUTPUT | Y115    | Flipper_REV               | Flipper reverse direction                  |
+| OUTPUT | Y113   | Flipper_RUN               | Flipper motor enable                       |
+| OUTPUT | Y114-115    | Flipper_FWD/REV               | Flipper forward or reverse direction                  |
+
 
 ---
 
