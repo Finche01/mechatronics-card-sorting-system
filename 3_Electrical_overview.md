@@ -28,7 +28,7 @@ The electrical system consists of three main subsystems:
 ---
 
 # 2. Motor Control Schematic
-<div align="left">
+<div align="center">
   <img src="image/schematic_images/Motor_schematic.png" width="80%">
 </div>
 
@@ -70,7 +70,7 @@ The electrical system consists of three main subsystems:
 | **ENA-** | Enable (-) | Ground/reference for the enable signal |
 
 # 3. Pneumatic Control Schematic
-<div align="left">
+<div align="center">
   <img src="image/schematic_images/Pneumatic_schematic.png" width="70%">
 </div>
 
