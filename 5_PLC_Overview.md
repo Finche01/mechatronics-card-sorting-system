@@ -9,8 +9,8 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 |----------------------|----------------------------------|
 | Programming Software | CLICK PLC Programming Software   |
 | Language Used        | Ladder Logic                     |
-| Communication        | Modbus TCP                       |
 | Total I/O            | 26                               |
+| Communication        | Modbus TCP                       |
 | Features Used        | Timers, counters, indexing, function calls |
 
 ---
