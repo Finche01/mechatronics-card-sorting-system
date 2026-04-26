@@ -37,7 +37,7 @@ The electrical system consists of three main subsystems:
 | **C2-14DR** | I/O module | Relay output |
 | **Motors** | Stepper motors for each axis | X, Y1, Y2, Z-axis |
 | **Motor Driver** | Stepper motor driver (x4) | Translates electrical pulses into motor actuation |
-| **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis |
+| **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis connected in parallel |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
 ## Motor Driver Reference
