@@ -23,7 +23,7 @@ The electrical system consists of three main subsystems:
 |:---------------|:--------|:------|
 | **TB_Logic** | +24V / 0V | PLC I/O Power Terminals |
 | **TB_Motor** | +24V / 0V | Motor Power Terminals |
-| **TB3** | +12V / 0V | Solenoids Flipper |
+| **TB3** | +12V / 0V | Flipper solenoid power terminals|
 
 ---
 
@@ -41,20 +41,9 @@ The electrical system consists of three main subsystems:
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
 ## Motor Driver Connection
-| Motor Driver Pinout | DIP Switches (driver config) |
+| Motor Driver Pins | DIP Switches (driver config) |
 |:--------------------|:--------------|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
-
-### Signal Pins
-
-| Pin | Function | Description |
-|:----|:---------|:-----------|
-| **PUL+** | Step signal (+) | Receives pulses from the PLC; each pulse moves the motor one step |
-| **PUL-** | Step signal (-) | Ground/reference for the step signal |
-| **DIR+** | Direction (+) | Controls motor direction (HIGH = clockwise, LOW = counterclockwise) |
-| **DIR-** | Direction (-) | Ground/reference for the direction signal |
-| **ENA+** | Enable (+) | Turns the motor on/off (LOW = enabled, HIGH = disabled) |
-| **ENA-** | Enable (-) | Ground/reference for the enable signal |
 
 ---
 
@@ -63,12 +52,22 @@ The electrical system consists of three main subsystems:
 | Pin | Function | Description |
 |:----|:---------|:-----------|
 | **GND** | Ground | Common ground for the driver |
-| **VEL+** | Feedback (+) | Optional signal for speed/feedback |
-| **VEL-** | Feedback (-) | Ground/reference for feedback |
-| **A+ / A-** | Motor coil A | Connects to motor phase A |
-| **B+ / B-** | Motor coil B | Connects to motor phase B |
+| **V+** | Power input | DC supply input to the motor driver |
+| **A+ / A-** | Motor coil A | Energizes/de-energizes motor phase A |
+| **B+ / B-** | Motor coil B | Energizes/de-energizes motor phase B |
 
 ---
+
+### Signal Pins
+
+| Pin | Function | Description |
+|:----|:---------|:-----------|
+| **PUL+** | Step signal (+) | Receives pulses from the PLC; each pulse moves the motor one step (configurable via DIP switches) |
+| **PUL-** | Step signal (-) | Ground/reference for the step signal |
+| **DIR+** | Direction (+) | Controls motor direction (HIGH = clockwise, LOW = counterclockwise) |
+| **DIR-** | Direction (-) | Ground/reference for the direction signal |
+| **ENA+** | Enable (+) | Enables or disables the motor (LOW = enabled, HIGH = disabled) |
+| **ENA-** | Enable (-) | Ground/reference for the enable signal |
 
 # 3. Pneumatic Control Schematic
 <div align="left">
@@ -81,7 +80,6 @@ The electrical system consists of three main subsystems:
 | **C2-14DR** | I/O Combo module | Relay output control |
 | **SOL1-4** | 5/2 solenoid valves | Double-acting pneumatic control |
 | **Pressure Switch** | Air pressure sensor | Monitors system pressure |
-| **Flipper Motor** | Tilt mechanism motor | 24V DC motor |
-| **LED Strip** | Status indicator | Provide diffused lighting for machine vision |
-
+| **Flipper Motor** | Tilt mechanism motor | 24V geared DC motor |
+| **LED Strip** | Status / vision lighting | Provides diffused lighting for machine vision |
 ---
