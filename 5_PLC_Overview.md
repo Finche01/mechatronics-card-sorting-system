@@ -34,7 +34,10 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | OUTPUT | Y113   | Flipper_RUN               | Flipper motor enable                       |
 | OUTPUT | Y114-115    | Flipper_FWD/REV               | Flipper forward or reverse direction                  |
 
-
+**Total I/O Count**
+- Inputs: 9
+- Outputs: 17
+- Total: 26
 ---
 
 ## Program Sequence
