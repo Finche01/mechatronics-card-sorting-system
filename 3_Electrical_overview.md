@@ -67,7 +67,9 @@ The electrical system consists of three main subsystems:
 ---
 
 # 3. Pneumatic Control Schematic
-![Pneumatic Control Schematic](image/schematic_images/Pneumatic_schematic.png)
+<div align="center">
+  <img src="image/schematic_images/Pneumatic_schematic.png" width="100%">
+</div>
 
 | Component | Description | Function |
 |:----------|:------------|:---------|
