@@ -40,7 +40,7 @@ The electrical system consists of three main subsystems:
 | **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis connected in parallel |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
-## Motor Driver Connection
+### Motor Drivers
 | Motor Driver Pins | DIP Switches (driver config) |
 |:--------------------|:--------------|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
