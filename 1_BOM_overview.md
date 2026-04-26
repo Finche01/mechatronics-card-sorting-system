@@ -3,14 +3,14 @@
 
 | Section                           | Subtotal  |
 |----------------------------------|-----------|
-| **3-Axis Gantry**                | $665.92   |
-| **PLC System**                  | $582.05   |
-| **Vision System**               | $79.83    |
-| **Pneumatics & Vacuum Operation** | $306.04 |
-| **Power / Electrical Components** | $307.47 |
-| **Sensors & Switches**          | $42.09    |
-| **Miscellaneous**               | $492.47   |
-| **GRAND TOTAL**                 | **$2,475.87** |
+| 3-Axis Gantry                    | $665.92   |
+| PLC System                       | $582.05   |
+| Vision System                    | $79.83    |
+| Pneumatics & Vacuum Operation    | $306.04   |
+| Power / Electrical Components    | $307.47   |
+| Sensors & Switches               | $42.09    |
+| Miscellaneous                    | $492.47   |
+| GRAND TOTAL                      | $2,475.87 |
 
 ---
 
