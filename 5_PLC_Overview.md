@@ -54,10 +54,10 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
   </tr>
   <tr>
     <td align="center">
-      <img src="image/sequential_diagram_initialization.png" width="95%">
+      <img src="image/sequential_diagram_initialization.png" width="100%">
     </td>
     <td align="center">
-      <img src="image/sequential_diagram_ranks.png" width="95%">
+      <img src="image/sequential_diagram_ranks.png" width="110%">
     </td>
   </tr>
 </table>
