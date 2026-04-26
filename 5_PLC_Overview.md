@@ -1,5 +1,8 @@
 # PLC Control System Overview
-
+<div align="center">
+  <img src="image/Click_Programming_Software.png" width="80%">
+  <p><em>CLICK PLC Programming Software Interface</em></p>
+</div>
 The Programmable Logic Controller (PLC) serves as the central control unit of the Card Sorting System. It manages motion control, sequencing, sensor integration, and communication with external systems to ensure reliable and coordinated operation.
 
 ---
