@@ -22,6 +22,8 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | INPUT  | X021    | Tool_Compression          | Tool compression sensor (card contact)     |
 | INPUT  | X022    | Tool_Card_Detect          | Card presence detection                    |
 | INPUT  | X025    | Vacuum_Ok                 | Vacuum pressure confirmation               |
+
+| Type   | Address | Tag Name                  | Function / Description                     |
 |--------|---------|---------------------------|--------------------------------------------|
 | OUTPUT | Y001    | X_Pulse                   | X-axis step pulse                          |
 | OUTPUT | Y002    | X_Direction               | X-axis direction control                   |
