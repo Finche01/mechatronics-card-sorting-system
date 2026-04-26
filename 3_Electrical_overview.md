@@ -28,7 +28,7 @@ The electrical system consists of three main subsystems:
 ---
 
 # 2. Motor Control Schematic
-<div align="center">
+<div align="left">
   <img src="image/schematic_images/Motor_schematic.png" width="80%">
 </div>
 
@@ -40,7 +40,7 @@ The electrical system consists of three main subsystems:
 | **Limit Switch** | Feedback sensor to signal axis limits | Two switches per axis connected in parallel |
 | **ESTOP** | Emergency stop button | Normally closed circuit |
 
-### Motor Drivers
+### Motor Driver 
 | Motor Driver Pins | DIP Switches (driver config) |
 |:--------------------|:--------------|
 | ![Motor Driver Pinout](image/schematic_images/Motor_driver.png) | ![Motor Driver Configuration Switch](image/schematic_images/Motor_driver_configuration_switch.png) |
@@ -70,7 +70,7 @@ The electrical system consists of three main subsystems:
 | **ENA-** | Enable (-) | Ground/reference for the enable signal |
 
 # 3. Pneumatic Control Schematic
-<div align="center">
+<div align="left">
   <img src="image/schematic_images/Pneumatic_schematic.png" width="70%">
 </div>
 
