@@ -11,7 +11,9 @@ This section outlines the major components used in the system
 | Sensors & Switches               | $42.09    |
 | Miscellaneous                    | $492.47   |
 | GRAND TOTAL                    | $2,475.87 |
+
 *All prices in CAD*
+
 ---
 
 ## 3-Axis Gantry
