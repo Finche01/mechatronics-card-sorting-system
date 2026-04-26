@@ -15,15 +15,25 @@
 
 ---
 ### Introduction
-An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic machine capable of identifying and sorting a deck of playing cards into pre-programmed coordinates. This project was developed at Seneca Polytechnic for the Technical Capstone Project (Winter 2026) and awarded for excellence within its category.
+An automated Pick-and-Place Card Sorting System is a fully integrated mechatronic system designed to identify and sort a deck of playing cards into predefined locations. 
+Developed at Seneca Polytechnic as part of the Technical Capstone Project (Winter 2026), the system demonstrates the integration of PLC control, machine vision, and automated material handling. The project was recognized for excellence within its category.
 
-### Key Features
+### Project Overview
+| Info            | Details                         |
+|---------------------|---------------------------------|
+| Development Period  | 10 weeks                        |
+| Total Cost          | $2,500                          |
+| Documentation       | OCETT Technician Report         |
+| Difficulty Level    | Advanced                        |
+| Team Member         | @Thursday                       |
+
+### System Features
 | # | Subsystem | Function |
 |---|-----------|----------|
-| 1 | **Programmable Logic Controller (PLC)** | Centralized processing unit |
-| 2 | **Three-Axis Gantry** | Material transport unit |
-| 3 | **Machine Vision (USB Camera)** | Image data acquisition unit |
-| 4 | **Pneumatic Circuit** | Material handling unit |
+| 1 | **Programmable Logic Controller (PLC)** | Centralized control and sequencing unit |
+| 2 | **Three-Axis Gantry** | Precise card positioning and transport |
+| 3 | **Machine Vision (USB Camera)** | Image data acquisition and classification|
+| 4 | **Pneumatic Circuit** | Card pickup and handling |
 
 ### Key Performance Indicators (KPIs)
 
@@ -34,3 +44,6 @@ An automated Pick-and-Place Card Sorting System is a fully integrated mechatroni
 | **Classification Accuracy** | 98% |
 | **Average Confidence** | ~85% |
 | **Pickup Reliability** | ~99% (under normal conditions) |
+
+### Note
+This repository provides an top-level overview of the project and does not reflect the complete implementation of the project.
