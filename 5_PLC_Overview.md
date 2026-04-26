@@ -2,6 +2,10 @@
 
 The Programmable Logic Controller (PLC) serves as the central control unit of the Card Sorting System. It manages motion control, sequencing, sensor integration, and communication with external systems to ensure reliable and coordinated operation.
 
+---
+
+## System Configuration
+
 | Category              | Details                          |
 |----------------------|----------------------------------|
 | Programming Software | CLICK PLC Programming Software   |
@@ -9,38 +13,50 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
 | Communication        | Modbus TCP                       |
 | Features Used        | Timers, counters, indexing, function calls |
 
-### PLC I/O Mapping Summary
+---
 
-| Type   | Address | Tag Name                  | Function / Description                     |
-|--------|---------|---------------------------|--------------------------------------------|
-| INPUT  | X001    | X_LmtNeg                  | X-axis negative limit switch               |
-| INPUT  | X002    | Y_LmtNeg                  | Y-axis negative limit switch               |
-| INPUT  | X003    | Z_LmtPos                  | Z-axis positive limit switch               |
-| INPUT  | X004    | Motor_Enable_Feedback     | Motor driver enable feedback               |
-| INPUT  | X005    | Flipper_LSW_Normal        | Flipper in normal position                 |
-| INPUT  | X006    | Flipper_LSW_Flipped       | Flipper in flipped position                |
-| INPUT  | X021    | Tool_Compression          | Tool compression sensor (card contact)     |
-| INPUT  | X022    | Tool_Card_Detect          | Card presence detection                    |
-| INPUT  | X025    | Vacuum_Ok                 | Vacuum pressure confirmation               |
-
-| Type   | Address | Tag Name                  | Function / Description                     |
-|--------|---------|---------------------------|--------------------------------------------|
-|OUTPUT | Y001–Y006 | X/Y/Z Pulse & Direction | Stepper motor control signals for X, Y, Z axes
-| OUTPUT | Y026    | Main_Cage_LED             | System status lighting                     |
-| OUTPUT | Y101    | Motor_Disable             | Motor disable control                      |
-| OUTPUT | Y102    | Vision_LED                | Illumination for camera                    |
-| OUTPUT | Y104    | Vacuum_Pump               | Vacuum pump activation                     |
-| OUTPUT | Y105–Y108 | Vacuum / Solenoid Control | Controls suction and release for tool and flipper mechanisms |
-| OUTPUT | Y113   | Flipper_RUN               | Flipper motor enable                       |
-| OUTPUT | Y114-115    | Flipper_FWD/REV               | Flipper forward or reverse direction                  |
+## I/O Summary
 
 **Total I/O Count**
-- Inputs: 9
-- Outputs: 17
-- Total: 26
+- Inputs: 9  
+- Outputs: 17  
+- Total: 26  
+
+---
+
+## Input Signals
+
+| Address | Tag Name                  | Description                          |
+|---------|---------------------------|--------------------------------------|
+| X001    | X_LmtNeg                  | X-axis negative limit switch         |
+| X002    | Y_LmtNeg                  | Y-axis negative limit switch         |
+| X003    | Z_LmtPos                  | Z-axis positive limit switch         |
+| X004    | Motor_Enable_Feedback     | Motor driver enable feedback         |
+| X005    | Flipper_LSW_Normal        | Flipper normal position              |
+| X006    | Flipper_LSW_Flipped       | Flipper flipped position             |
+| X021    | Tool_Compression          | Tool compression (card contact)      |
+| X022    | Tool_Card_Detect          | Card presence detection              |
+| X025    | Vacuum_Ok                 | Vacuum pressure confirmation         |
+
+---
+
+## Output Signals
+
+| Address     | Tag Name                        | Description                                      |
+|-------------|--------------------------------|--------------------------------------------------|
+| Y001–Y006   | X/Y/Z Pulse & Direction        | Stepper motor control (X, Y, Z axes)             |
+| Y026        | Main_Cage_LED                  | System status lighting                           |
+| Y101        | Motor_Disable                  | Motor disable control                            |
+| Y102        | Vision_LED                     | Camera illumination                              |
+| Y104        | Vacuum_Pump                    | Vacuum pump activation                           |
+| Y105–Y108   | Vacuum / Solenoid Control      | Tool & flipper suction / release control         |
+| Y113        | Flipper_RUN                    | Flipper motor enable                             |
+| Y114–Y115   | Flipper_FWD / REV              | Flipper direction control                        |
+
 ---
 
 ## Program Sequence
+
 <table>
   <tr>
     <td align="center"><strong>Initialization</strong></td>
@@ -48,10 +64,10 @@ The Programmable Logic Controller (PLC) serves as the central control unit of th
   </tr>
   <tr>
     <td align="center">
-      <img src="image/sequential_diagram_initialization.png" width="100%">
+      <img src="image/sequential_diagram_initialization.png" width="95%">
     </td>
     <td align="center">
-      <img src="image/sequential_diagram_ranks.png" width="100%">
+      <img src="image/sequential_diagram_ranks.png" width="95%">
     </td>
   </tr>
 </table>
