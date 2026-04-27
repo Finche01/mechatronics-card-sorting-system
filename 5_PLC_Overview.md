@@ -4,7 +4,9 @@
   <p><em>CLICK PLC Programming Software Interface</em></p>
 </div>
 The Programmable Logic Controller (PLC) acts as the central control unit of the card sorting system. It continuously monitors internal variables and executes programmed logic and sequences with precise timing. Additionally, it coordinates motion control and communicates with external systems, ensuring reliable, efficient, and synchronized operation.
+
 ---
+
 ## System Configuration
 
 | Category              | Details                          |
@@ -30,6 +32,7 @@ The Programmable Logic Controller (PLC) acts as the central control unit of the 
 | X021    | Tool_Compression     | Z-axis negative limit switch         |
 | X022    | Tool_Card_Detect     | Photoelectric sensor                          |
 | X025    | Vacuum_Ok            | Vacuum pressure switch                               |
+
 ---
 
 ## Output Signals
