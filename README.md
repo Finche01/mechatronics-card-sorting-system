@@ -14,12 +14,12 @@
 </div>
 
 ---
-### Project Introduction
+### Project Overview
 
 | Info            | Details                         |
 |---------------------|---------------------------------|
-| Development Period  | ~10 weeks                        |
-| Total Cost          | ~$2,500                          |
+| Development Period  | 10 weeks                        |
+| Total Cost          | $2,500                          |
 | Documentation       | OCETT Technicial Report         |
 | Team Members         | @Thursday1869                      |
 
