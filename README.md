@@ -16,10 +16,10 @@
 ---
 ### Project Overview
 
-| Info            | Details                         |
+|       Item      | Details                         |
 |---------------------|---------------------------------|
 | Development Period  | 10 weeks                        |
-| Total Cost          | $2,500                          |
+| Total Cost          | Approximately $2,500 CAD                          |
 | Documentation       | OCETT Technicial Report         |
 | Team Members         | @Thursday1869                      |
 
