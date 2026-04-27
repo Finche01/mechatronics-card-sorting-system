@@ -21,8 +21,7 @@
 
 ### Notes
 - Node-RED and the MQTT broker are deployed as containers using Docker Desktop.  
-- Running them in containers simplifies network setup and provides isolation between services.  
-- Containerized deployment is easy to manage, lightweight, and ensures a consistent runtime environment.  
+- Running them in containers simplified network setup and provided isolation between services.  
 
 ---
 ## 3. VisionSystem.py (OpenCV)
